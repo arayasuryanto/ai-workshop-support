@@ -34,7 +34,7 @@ copy-paste — that is the "branded AI" pitch from 7–8 Sep (`~/friday/pdf-stud
 - **Git + public repo (26 Sep):** https://github.com/arayasuryanto/ai-workshop-support (main). `.gitignore` excludes
   `scrape/auth`, `scrape/out` (467 MB raw dump), PDFs, dist, node_modules, `_publish`. Repo carries the course text in
   app/public/*.json — content is Pak Guntar's; flip private with `gh repo edit ... --visibility private` if he prefers.
-  Commit author: `Claudy · workshop-platform`. Push only on Araya's "push it".
+  Commit author: `Lord-Manager · workshop-platform`, NO Claude co-author trailer (Araya, 26 Sep). README + repo copy in English. Push only on Araya's "push it".
 - Telegram summary + a forwardable draft note for Pak Guntar sent to Araya's chat 26 Sep via mastercontrol `tg.sh`.
 
 ## Status — 24 Sep 2026
