@@ -252,7 +252,7 @@ export function Hero({ L }) {
               <Btn as="a" href={`${SRC}/auth/login`} size="lg"><Play size={17} fill="currentColor" />Mulai Training</Btn>
               <motion.span className="pointer-events-none absolute inset-y-0 w-14 bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-[-18deg]" initial={{ left: '-30%' }} animate={{ left: '130%' }} transition={{ delay: 2, duration: 1, repeat: Infinity, repeatDelay: 3.2 }} />
             </motion.span>
-            <Btn as="a" href="#materi" variant="ghost" size="lg">Pelajari lebih lanjut<motion.span animate={{ y: [0, 3, 0] }} transition={{ duration: 1.4, repeat: Infinity }}><ChevronDown size={17} /></motion.span></Btn>
+            <Btn variant="ghost" size="lg" onClick={() => document.getElementById('materi')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Pelajari lebih lanjut<motion.span animate={{ y: [0, 3, 0] }} transition={{ duration: 1.4, repeat: Infinity }}><ChevronDown size={17} /></motion.span></Btn>
           </motion.div>
 
           <Pillars pillars={L.pillars} />

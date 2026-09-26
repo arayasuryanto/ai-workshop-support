@@ -29,8 +29,11 @@ copy-paste — that is the "branded AI" pitch from 7–8 Sep (`~/friday/pdf-stud
 - **Landing is the public face; everything else links to the ORIGINAL site for now** (Araya, 26 Sep): nav = Workshop
   (`/materi`) · Materi (#materi) · Dashboard (`/dashboard`); "Masuk" + "Mulai Training" → `/auth/login`; Baca materi →
   `/materi/<slug>`; closing tiles → materi / prompt-library / case-study / dashboard — all on workshop-ai-pamjaya.vercel.app
-  (`SRC` const in `pages/Landing.jsx`). Our built modules stay reachable but UNLINKED: `/#/peta`, `/#/lab`, `/#/prompt`,
-  `/#/latihan`. Plan: enhance outward-in — landing first, dashboard/modules later.
+  (`SRC` const in `pages/Landing.jsx`). **Every non-landing route is GATED (26 Sep):** `Gate` in `App.jsx` redirects `/peta`→`/materi`, `/lab`→`/case-study`,
+  `/prompt`→`/prompt-library`, `/latihan`→`/pre-test`, `/sesi/*`→`/materi`, anything else→`/` on the original site. To preview
+  our modules: `localStorage.setItem('wl:preview','1')` in the console. Gotcha: with HashRouter a plain `href="#materi"`
+  becomes route `materi` → the `*` fallback; in-page scrolls must be `scrollIntoView`, never hash anchors.
+  Plan: enhance outward-in — landing first, dashboard/modules later, only if Pak Guntar asks.
 - **Git + public repo (26 Sep):** https://github.com/arayasuryanto/ai-workshop-support (main). `.gitignore` excludes
   `scrape/auth`, `scrape/out` (467 MB raw dump), PDFs, dist, node_modules, `_publish`. Repo carries the course text in
   app/public/*.json — content is Pak Guntar's; flip private with `gh repo edit ... --visibility private` if he prefers.
