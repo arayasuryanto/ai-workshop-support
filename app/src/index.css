@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { -webkit-text-size-adjust: 100%; }
+body { @apply bg-[#fafcff] text-ink font-sans antialiased; overflow-x: hidden; }
+::selection { background: rgba(2,86,244,.16); }
+.aurora { position: fixed; inset: 0 0 auto 0; height: 620px; z-index: 0; pointer-events: none; overflow: hidden; }
+.aurora i { position: absolute; border-radius: 50%; filter: blur(70px); opacity: .7; animation: drift 18s ease-in-out infinite alternate; }
+@keyframes drift { to { transform: translate3d(40px, 30px, 0) scale(1.08); } }
+.aurora::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(255,255,255,0) 40%, #fff 100%); }
+.glass { background: rgba(255,255,255,.72); backdrop-filter: saturate(1.6) blur(16px); -webkit-backdrop-filter: saturate(1.6) blur(16px); }
+.grad-text { background: linear-gradient(92deg, #0256f4, #1a8df6 55%, #22b8f5); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.grad-btn { background: linear-gradient(135deg, #0256f4 0%, #1a8df6 100%); }
+.prose-lab p { @apply text-[16.5px] leading-[1.75] text-ink-2 mb-4; }
+.prose-lab h3 { @apply text-lg font-bold mt-8 mb-2 text-ink; }
+.prose-lab h4 { @apply text-[15px] font-bold mt-6 mb-1.5 text-ink-2; }
+.prose-lab ul, .prose-lab ol { @apply mb-4 pl-6 text-[16px] leading-[1.7] text-ink-2; }
+.prose-lab ul { list-style: disc; } .prose-lab ol { list-style: decimal; }
+.prose-lab li { @apply my-1; }
+.big .prose-lab p, .big .prose-lab li { font-size: 18.5px; }
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: #dbe3ef; border-radius: 8px; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom); }

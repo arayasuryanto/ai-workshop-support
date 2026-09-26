@@ -1,0 +1,12 @@
+# credentials + raw scrape dump (participant data, auth state, 467 MB of html/screenshots)
+scrape/auth/
+scrape/out/
+# generated
+app/node_modules/
+app/dist/
+_publish/
+app/public/pdf/
+prototype/pdf/
+prototype/_v1/
+.DS_Store
+*.log

@@ -1,0 +1,241 @@
+{
+ "hero": {
+  "badge": "PAM Jaya × BusinessFirst 2026",
+  "title": [
+   "Gen AI for",
+   "Business Productivity"
+  ],
+  "tagline": "From Understanding AI to Applying AI at Work",
+  "lead": "Program intensif hands-on yang membekali karyawan PAM Jaya untuk memahami, memanfaatkan, dan mengintegrasikan Generative AI ke dalam pekerjaan sehari-hari — dari dasar prompting hingga merancang alur kerja AI personal yang langsung bisa diterapkan."
+ },
+ "pillars": [
+  {
+   "t": "Understand & Explore",
+   "d": "Memahami dasar, kemampuan, keterbatasan, dan risiko Generative AI — lalu memetakan peluangnya di pekerjaan Anda",
+   "ic": "compass"
+  },
+  {
+   "t": "Practice & Apply",
+   "d": "Prompting dari dasar hingga tingkat lanjut, diterapkan pada functional use case nyata di unit kerja PAM Jaya",
+   "ic": "wrench"
+  },
+  {
+   "t": "Integrate",
+   "d": "Menghasilkan minimal satu personal AI workflow yang siap diterapkan setelah training berakhir",
+   "ic": "workflow"
+  }
+ ],
+ "jadwal": [
+  [
+   "Lokasi",
+   "Jakarta, 2026"
+  ],
+  [
+   "Jam",
+   "08.30 – 16.30 WIB"
+  ],
+  [
+   "Format",
+   "2 Hari — In-House Training"
+  ],
+  [
+   "Peserta",
+   "Karyawan PAM Jaya"
+  ]
+ ],
+ "content": {
+  "title": "Workshop Content",
+  "lead": "Dua belas sesi selama dua hari — dari memahami Generative AI, menguasai prompting, hingga merancang alur kerja AI personal yang langsung bisa diterapkan di unit kerja Anda",
+  "cards": [
+   {
+    "n": 1,
+    "title": "Memahami Generative AI",
+    "desc": "Pengertian AI dan GenAI, cara kerja model bahasa, kemampuan dan keterbatasannya, serta dampaknya terhadap pekerjaan berbasis dokumen di PAM Jaya.",
+    "points": [
+     "Beda AI, Machine Learning, dan Generative AI",
+     "Cara model bahasa menyusun jawaban — dan kenapa bisa salah dengan yakin",
+     "Apa yang GenAI kuasai: transformasi, draft, analisis teks"
+    ],
+    "more": 2,
+    "why": "Tanpa memahami cara kerjanya, AI dipakai dengan salah — dan riset menunjukkan pemakaian di luar batas kemampuannya justr…",
+    "image": "assets/images_materi_sesi-01-memahami-generative-ai.jpg",
+    "slug": "sesi-01-memahami-generative-ai"
+   },
+   {
+    "n": 2,
+    "title": "Mengidentifikasi Peluang AI dalam Pekerjaan",
+    "desc": "Mengenali pekerjaan yang dapat dibantu AI — pekerjaan berulang, berbasis dokumen, dan berbasis pengetahuan — lalu memetakannya menjadi peluang konkret per unit kerja.",
+    "points": [
+     "Tiga ciri pekerjaan yang cocok dibantu AI",
+     "Tiga ciri pekerjaan yang tidak boleh diserahkan ke AI",
+     "Matriks peluang: frekuensi × beban waktu"
+    ],
+    "more": 2,
+    "why": "Kesalahan terbesar pemula adalah memakai AI untuk pekerjaan yang salah.",
+    "image": "assets/images_materi_sesi-02-peluang-ai-dalam-pekerjaan.jpg",
+    "slug": "sesi-02-peluang-ai-dalam-pekerjaan"
+   },
+   {
+    "n": 3,
+    "title": "Dasar-Dasar Prompting",
+    "desc": "Struktur prompt yang efektif: peran, konteks, instruksi, batasan, dan format hasil — dengan contoh utuh dari prompt lemah ke prompt yang menghasilkan draft siap periksa.",
+    "points": [
+     "Kerangka PERAN – KONTEKS – TUGAS – BATASAN – FORMAT",
+     "Konteks: komponen paling sering kurang, paling besar dampaknya",
+     "Batasan wajib: \"jangan mengarang, tandai [PERLU DILENGKAPI]\""
+    ],
+    "more": 2,
+    "why": "Selisih antara jawaban AI yang generik dan yang langsung bisa dipakai bukan terletak pada kecerdasan AI, melainkan pada…",
+    "image": "assets/images_materi_sesi-03-dasar-dasar-prompting.jpg",
+    "slug": "sesi-03-dasar-dasar-prompting"
+   },
+   {
+    "n": 4,
+    "title": "Membuat Prompt yang Lebih Efektif",
+    "desc": "Pengembangan prompt lewat iterasi terarah, pemberian contoh (few-shot), penyempurnaan hasil, dan teknik mendapatkan output yang lebih relevan.",
+    "points": [
+     "Iterasi bertahap, bukan menulis ulang dari nol",
+     "Few-shot: 2–5 contoh mengunci format dan gaya",
+     "Umpan balik spesifik: apa yang bagus, apa yang salah, apa gantinya"
+    ],
+    "more": 2,
+    "why": "Empat putaran perbaikan singkat hampir selalu mengalahkan satu prompt raksasa — dan itu keterampilan yang bisa dilatih d…",
+    "image": "assets/images_materi_sesi-04-prompt-yang-lebih-efektif.jpg",
+    "slug": "sesi-04-prompt-yang-lebih-efektif"
+   },
+   {
+    "n": 5,
+    "title": "GenAI untuk Pekerjaan Sehari-hari",
+    "desc": "Penulisan, peringkasan, riset, brainstorming, pengolahan informasi, dan komunikasi — enam jenis pekerjaan harian dengan prompt siap pakai konteks PAM Jaya.",
+    "points": [
+     "Draft balasan pengaduan per kategori keluhan",
+     "Laporan panjang menjadi ringkasan untuk pimpinan",
+     "Riset cepat topik baru — dengan rambu verifikasi"
+    ],
+    "more": 2,
+    "why": "Di sinilah penghematan waktu paling terasa. Pekerjaan berbasis dokumen adalah sebagian besar isi hari kerja di PAM Jaya.",
+    "image": "assets/images_materi_sesi-05-genai-pekerjaan-sehari-hari.jpg",
+    "slug": "sesi-05-genai-pekerjaan-sehari-hari"
+   },
+   {
+    "n": 6,
+    "title": "Penggunaan AI yang Aman & Bertanggung Jawab",
+    "desc": "Akurasi, halusinasi AI, kerahasiaan data, privasi, bias, verifikasi, dan peran manusia — rambu yang membuat Anda bisa memakai AI dengan percaya diri.",
+    "points": [
+     "Halusinasi: di mana paling sering muncul, dan cara menekannya",
+     "Data apa yang boleh dan tidak boleh ditempel ke AI publik",
+     "Cara menyamarkan data tanpa kehilangan ketajaman analisis"
+    ],
+    "more": 2,
+    "why": "Tanggung jawab atas isi yang keluar dari PAM Jaya tidak bisa dialihkan ke AI.",
+    "image": "assets/images_materi_sesi-06-ai-aman-dan-bertanggung-jawab.jpg",
+    "slug": "sesi-06-ai-aman-dan-bertanggung-jawab"
+   },
+   {
+    "n": 7,
+    "title": "Penerapan AI di Berbagai Fungsi",
+    "desc": "Contoh penggunaan AI untuk Operasional, Pelayanan Pelanggan, SDM, Keuangan, Humas, Pengadaan, Perencanaan, dan Manajemen — dengan prompt siap pakai per fungsi.",
+    "points": [
+     "Operasional: laporan teknis menjadi ringkasan eksekutif",
+     "Pelayanan Pelanggan: ringkasan tren komplain lintas kanal",
+     "SDM: FAQ transisi sistem dan rangkuman survei pegawai"
+    ],
+    "more": 2,
+    "why": "Setiap fungsi punya pekerjaan berbasis dokumen yang bisa dipercepat.",
+    "image": "assets/images_materi_sesi-07-penerapan-ai-berbagai-fungsi.jpg",
+    "slug": "sesi-07-penerapan-ai-berbagai-fungsi"
+   },
+   {
+    "n": 8,
+    "title": "AI untuk Analisis & Pengambilan Keputusan",
+    "desc": "Analisis informasi, perbandingan opsi, identifikasi pola, pencarian insight, dan penyusunan rekomendasi — digabungkan dengan framework 5 Why, Fishbone, Pareto, dan Design Thinking.",
+    "points": [
+     "Empat jenis analisis yang bisa dibantu AI",
+     "Meminta AI tidak memutuskan — hasilnya justru lebih berguna",
+     "5 Why, Fishbone 6M, Pareto, Design Thinking + AI"
+    ],
+    "more": 2,
+    "why": "Analisis berbeda dari peringkasan, dan kesalahannya tidak terlihat dari permukaan.",
+    "image": "assets/images_materi_sesi-08-ai-analisis-dan-keputusan.jpg",
+    "slug": "sesi-08-ai-analisis-dan-keputusan"
+   },
+   {
+    "n": 9,
+    "title": "Teknik Prompting Tingkat Lanjut",
+    "desc": "Role Prompting, Context Stuffing, dan Prompt Chaining — ditambah evaluasi hasil, penyempurnaan terarah, dan penyusunan output terstruktur.",
+    "points": [
+     "Role Prompting: tugas tetap sama, yang berubah siapa yang menjawab",
+     "Context Stuffing: 70% prompt untuk konteks",
+     "Prompt Chaining: satu chain satu aspek, validasi tiap tahap"
+    ],
+    "more": 2,
+    "why": "Tiga teknik ini yang membedakan pemakai AI biasa dari pemakai AI yang produktif — dan semuanya bisa dilatih dalam satu s…",
+    "image": "assets/images_materi_sesi-09-teknik-prompting-lanjut.jpg",
+    "slug": "sesi-09-teknik-prompting-lanjut"
+   },
+   {
+    "n": 10,
+    "title": "Merancang Alur Kerja Berbantuan AI",
+    "desc": "Mengubah proses manual menjadi proses kerja yang dibantu AI — lengkap dengan titik kontrol manusia dan rambu penanganan data.",
+    "points": [
+     "Petakan proses sebagaimana adanya, bukan sebagaimana seharusnya",
+     "Klasifikasi langkah: serahkan ke AI / AI menyiapkan / manusia saja",
+     "Alur yang baik menambah titik kontrol, bukan menguranginya"
+    ],
+    "more": 2,
+    "why": "Alur kerja mengubah penghematan sesekali menjadi penghematan setiap minggu, dan bisa diserahkan ke rekan yang menggantik…",
+    "image": "assets/images_materi_sesi-10-merancang-alur-kerja-ai.jpg",
+    "slug": "sesi-10-merancang-alur-kerja-ai"
+   },
+   {
+    "n": 11,
+    "title": "Praktik: Membangun Alur Kerja AI Personal",
+    "desc": "Peserta menerapkan AI pada pekerjaan nyata dari fungsi masing-masing, membangun dan menguji satu alur kerja yang benar-benar akan dipakai setelah workshop.",
+    "points": [
+     "Tujuh tahap praktik terstruktur dalam 135 menit",
+     "Prompt tersimpan yang diuji minimal tiga putaran",
+     "Uji konsistensi antar-kasus, bukan hanya kualitas satu kasus"
+    ],
+    "more": 2,
+    "why": "Ini keluaran nyata dari workshop.",
+    "image": "assets/images_materi_sesi-11-praktik-alur-kerja-ai-personal.jpg",
+    "slug": "sesi-11-praktik-alur-kerja-ai-personal"
+   },
+   {
+    "n": 12,
+    "title": "Tantangan Proyek (Capstone Challenge)",
+    "desc": "Menyelesaikan masalah kerja nyata menggunakan AI, dari identifikasi masalah hingga usulan solusi yang siap dipresentasikan ke pimpinan.",
+    "points": [
+     "Kerja kelompok lintas unit, 45 menit pengerjaan",
+     "Lima keluaran wajib, termasuk catatan verifikasi",
+     "Rantai prompt: diagnosis → akar masalah → solusi → kritik mandiri"
+    ],
+    "more": 2,
+    "why": "Capstone memastikan dua hari workshop berakhir dengan sesuatu yang bisa langsung diajukan — bukan sekadar catatan yang t…",
+    "image": "assets/images_materi_sesi-12-capstone-challenge.jpg",
+    "slug": "sesi-12-capstone-challenge"
+   }
+  ]
+ },
+ "journey": {
+  "title": "From Understanding AI to Applying AI at Work",
+  "lead": "Generative AI bukan lagi sekadar alat untuk membuat teks atau mencari informasi. Potensinya jauh lebih besar untuk membantu profesional berpikir, menganalisis, mengambil keputusan, menyelesaikan pekerjaan, dan meningkatkan workflow. Program dua hari ini dirancang sebagai intensive hands-on learning experience agar peserta tidak hanya mengenal GenAI, tetapi mampu menerapkannya pada pekerjaan nyata di PAM Jaya.",
+  "steps": [
+   "Understand",
+   "Explore",
+   "Practice",
+   "Apply",
+   "Integrate"
+  ],
+  "stats": [
+   [
+    "2 hari",
+    "intensif (08.30–16.30)"
+   ],
+   [
+    "12 sesi",
+    "hands-on praktik & capstone"
+   ]
+  ]
+ }
+}

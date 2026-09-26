@@ -1,0 +1,647 @@
+{
+ "duration_pre": 15,
+ "duration_post": 12,
+ "questions": [
+  {
+   "n": 1,
+   "title": "Framework 9 Langkah Analysis & Judgement",
+   "topic": "Analysis & Judgement dalam Konteks Unit Pelayanan",
+   "question": "Sebagai staf PAM Jaya, Anda menerima laporan bahwa salah satu unit pelayanan binaan Anda mengalami penurunan jumlah kunjungan layanan selama 3 bulan berturut-turut. Jelaskan bagaimana Anda akan menerapkan framework 9 Langkah Analysis & Judgement untuk mengatasi situasi ini — mulai dari mengidentifikasi masalah hingga mengambil keputusan dan memonitor hasilnya!",
+   "concepts": [
+    "Hafalan dan pemahaman urutan 9 langkah Analysis & Judgement",
+    "Kemampuan mengkontekstualisasikan setiap langkah ke situasi nyata Unit Pelayanan",
+    "Pemahaman bahwa framework ini adalah satu kesatuan proses — bukan daftar yang bisa diacak"
+   ],
+   "ideal": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Langkah",
+       "Tindakan Konkret staf"
+      ],
+      [
+       "1. Identify the Situation",
+       "Definisikan masalah secara spesifik: penurunan berapa persen? Di cabang mana? Periode kapan? Bandingkan dengan baseline periode sebelumnya."
+      ],
+      [
+       "2. Gather Relevant Information",
+       "Kumpulkan: riwayat kunjungan bulanan, data unit pelayanan pembanding, feedback pelanggan, kondisi petugas lapangan, catatan antrian pengaduan, dan laporan langsung dari Manajer Wilayah."
+      ],
+      [
+       "3. Analyze Root Cause",
+       "Gunakan Fishbone (6M) untuk memetakan semua kemungkinan penyebab, lalu 5 Why untuk menggali penyebab paling kritis."
+      ],
+      [
+       "4. Generate Options",
+       "Buat alternatif solusi: program loyalty pelanggan, pelatihan petugas lapangan, pembenahan sistem antrian, penguatan sistem reminder, program layanan keliling, dll."
+      ],
+      [
+       "5. Evaluate Risks & Consequences",
+       "Gunakan Pareto untuk memprioritaskan — pertimbangkan dampak, biaya implementasi, waktu, dan risiko bagi bisnis Manajer Wilayah."
+      ],
+      [
+       "6. Make the Decision",
+       "Pilih solusi yang paling feasible dan berdampak besar berdasarkan evaluasi langkah 5."
+      ],
+      [
+       "7. Execute & Communicate",
+       "Implementasikan solusi dan komunikasikan rencana kepada Manajer Wilayah/Kepala Unit Pelayanan dengan jelas — termasuk timeline dan ekspektasi hasil."
+      ],
+      [
+       "8. Monitor",
+       "Pantau perkembangan kunjungan setiap minggu atau bulan; bandingkan dengan baseline sebelum intervensi."
+      ],
+      [
+       "9. Review & Learn",
+       "Setelah periode yang ditetapkan, evaluasi apakah solusi berhasil. Catat pembelajaran untuk diaplikasikan di Unit Pelayanan lain yang menghadapi masalah serupa."
+      ]
+     ]
+    }
+   ],
+   "minimum": "Menyebutkan semua 9 langkah secara berurutan + mengkaitkan minimal 5 langkah dengan konteks penurunan kunjungan Unit Pelayanan.",
+   "mistakes": [
+    "Menyebut langkah tapi tidak mengkontekstualisasikan — jawaban hanya mendaftar 9 langkah tanpa menjelaskan bagaimana di kasus penurunan kunjungan",
+    "Lompat dari langkah 2 ke langkah 6 — melewatkan analisis akar masalah (langkah 3) dan evaluasi opsi (langkah 5)",
+    "Berhenti di langkah 7 — melupakan monitoring (8) dan review & learn (9)",
+    "Solusi generik — \"tingkatkan kualitas layanan\" tanpa mencantumkan tools analisis yang digunakan di langkah 3"
+   ],
+   "links": [
+    "Langkah 3 → Materi 01 (5 Why) + Materi 02 (Fishbone)",
+    "Langkah 4–5 → Materi 03 (Pareto) + Materi 04 (Design Thinking fase Ideate)",
+    "Langkah 7 → Materi 04 (Design Thinking fase Prototype)",
+    "Langkah 8–9 → Materi 04 (Design Thinking fase Test)",
+    "AI sebagai akselerator di semua langkah → Materi 05"
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Staf sebagai \"Brain\": Peran Analysis & Judgement",
+   "topic": "Analysis & Judgement dalam Konteks Unit Pelayanan",
+   "question": "Mengapa kompetensi Analysis & Judgement menjadi semakin krusial bagi staf PAM Jaya di era sekarang, terutama mengingat tiga tantangan utama yang dihadapi Unit Pelayanan (antrian panjang, jarak yang jauh, dan kualitas layanan)? Kaitkan jawaban Anda dengan peran staf sebagai 'Brain' bagi unit pelayanan binaannya!",
+   "concepts": [
+    "Pemahaman tentang mengapa Analysis & Judgement relevan — bukan hanya apa itu",
+    "Kemampuan menghubungkan tiga tantangan Unit Pelayanan dengan kebutuhan kompetensi staf",
+    "Pemahaman metafora staf sebagai \"Brain\" yang memberikan guidance berbasis data"
+   ],
+   "ideal": [
+    {
+     "type": "text",
+     "text": "Tiga alasan utama A&J semakin krusial:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Volume data operasional semakin besar — staf harus mampu menganalisis data kunjungan, keluhan, kinerja petugas lapangan, dan data CSI secara cepat dan akurat. Tanpa kemampuan analisis, data hanya menjadi angka tanpa makna.",
+      "Keputusan harus cepat dan tepat — Dalam menangani antrian panjang misalnya, staf tidak bisa hanya mengandalkan intuisi. Diperlukan analisis kapasitas unit pelayanan, pola kunjungan per hari, dan sistem penjadwalan yang terstruktur. Keputusan yang lambat atau tidak tepat berdampak langsung pada revenue Unit Pelayanan.",
+      "Setiap Unit Pelayanan memiliki tantangan yang unik — Solusi untuk masalah jarak jauh di area pedesaan berbeda total dengan solusi di kota. Staf yang baik tidak memberikan solusi template — ia menganalisis konteks spesifik setiap Unit Pelayanan."
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Staf sebagai \"Brain\": staf berfungsi sebagai pemberi guidance kepada Manajer Wilayah, Kepala Divisi, dan Kepala Unit Pelayanan. Tanpa kemampuan analisis yang kuat, rekomendasi staf hanya berbasis intuisi — tidak dapat dikomunikasikan secara objektif, sulit diterima stakeholder, dan rentan salah sasaran. Dengan Analysis & Judgement yang kuat, staf menghasilkan rekomendasi yang data-driven, cepat dikomunikasikan, dan berdampak nyata pada sustainability bisnis Unit Pelayanan."
+    }
+   ],
+   "minimum": "Menyebut tiga alasan (data besar, keputusan cepat, masalah unik per Unit Pelayanan) + menjelaskan peran staf sebagai Brain = pemberi rekomendasi berbasis data.",
+   "mistakes": [
+    "Tidak menghubungkan ke tiga tantangan spesifik — jawaban hanya berbicara umum tentang pentingnya analisis",
+    "Tidak menjelaskan makna \"Brain\" — hanya menyebut staf sebagai pemimpin tanpa menjelaskan fungsi guidance berbasis data",
+    "Membandingkan intuisi vs data tapi tidak ada contoh — pernyataan tanpa ilustrasi konkret"
+   ],
+   "links": []
+  },
+  {
+   "n": 3,
+   "title": "Fishbone 6M untuk Kualitas Layanan",
+   "topic": "Fishbone Diagram & Root Cause Analysis",
+   "question": "unit pelayanan binaan Anda mendapat banyak keluhan pelanggan tentang kualitas hasil penanganan yang tidak konsisten. Gambarkan secara deskriptif bagaimana Anda akan menggunakan Fishbone Diagram (Ishikawa) dengan kategori 6M untuk menganalisis masalah ini. Sebutkan minimal 2 contoh faktor penyebab untuk setiap kategori 6M yang relevan!",
+   "concepts": [
+    "Hafalan dan pemahaman 6 kategori M dalam Fishbone Diagram",
+    "Kemampuan menghasilkan contoh penyebab yang spesifik dan relevan untuk konteks Unit Pelayanan",
+    "Pemahaman Fishbone sebagai tools pemetaan komprehensif (bukan solusi langsung)"
+   ],
+   "ideal": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Kategori",
+       "Contoh Faktor Penyebab di Unit Pelayanan"
+      ],
+      [
+       "Man (Manusia)",
+       "Petugas lapangan kurang terlatih untuk tipe meter dan perangkat terbaru; turnover petugas lapangan tinggi sehingga pengalaman tidak terakumulasi; tidak ada program mentoring petugas lapangan junior"
+      ],
+      [
+       "Machine (Mesin/Peralatan)",
+       "Alat ukur tekanan/flow meter tidak dikalibrasi secara rutin (>12 bulan); perangkat loket kondisi tidak prima; aplikasi Lapor PAM versi lama"
+      ],
+      [
+       "Method (Metode/Prosedur)",
+       "SOP penanganan tidak dijalankan secara konsisten oleh semua petugas lapangan; tidak ada checklist quality control sebelum tiket ditutup; briefing pagi tidak rutin dilakukan"
+      ],
+      [
+       "Material (Bahan/Suku Cadang)",
+       "Beberapa petugas lapangan menggunakan material non-genuine; penyimpanan material tidak sesuai standar (terkena panas/lembab)"
+      ],
+      [
+       "Mother Nature (Lingkungan)",
+       "Area kerja terlalu sempit sehingga petugas lapangan bekerja terburu-buru; pencahayaan ruang kerja kurang sehingga pemeriksaan komponen tidak teliti"
+      ],
+      [
+       "Measurement (Pengukuran/Standar)",
+       "Tidak ada standar penilaian kualitas hasil penanganan yang jelas dan terukur; tidak ada sistem feedback pelanggan yang terstruktur; data keluhan tidak direkap"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Penutup analisis: Setelah semua faktor dipetakan, staf mengidentifikasi kategori dengan penyebab terbanyak atau paling kritis, lalu melanjutkan dengan Pareto (untuk prioritisasi) atau 5 Why (untuk penggalian lebih dalam)."
+    },
+    {
+     "type": "code",
+     "text": "Fishbone (peta semua kemungkinan penyebab)\n        ↓\nPareto (prioritisasi: penyebab mana yang paling banyak berkontribusi?)\n        ↓\n5 Why (gali lebih dalam: mengapa penyebab utama itu terjadi?)\n        ↓\nAction Plan (solusi yang tepat sasaran)\n",
+     "copyable": true
+    }
+   ],
+   "minimum": "Menyebutkan semua 6 kategori M dengan minimal 2 contoh per kategori yang relevan dengan konteks Unit Pelayanan.",
+   "mistakes": [
+    "Hanya menyebutkan 4–5 kategori — melewatkan Mother Nature atau Measurement yang sering dianggap tidak relevan",
+    "Contoh terlalu generik — \"kurangnya skill petugas lapangan\" tanpa spesifik aspek skill mana yang kurang",
+    "Langsung ke solusi — Fishbone adalah tools analisis penyebab, bukan solusi; jangan melompat ke rekomendasi",
+    "Mencampur kategori — misalnya memasukkan \"SOP tidak ada\" ke kategori Man (seharusnya Method)"
+   ],
+   "links": []
+  },
+  {
+   "n": 4,
+   "title": "Symptom vs Root Cause",
+   "topic": "Fishbone Diagram & Root Cause Analysis",
+   "question": "Apa perbedaan mendasar antara 'symptom' (gejala) dan 'root cause' (akar masalah) dalam konteks analisis Unit Pelayanan? Berikan contoh nyata di mana seorang staf mungkin terjebak menangani gejala tanpa menyelesaikan akar masalah, dan jelaskan dampak negatifnya!",
+   "concepts": [
+    "Pemahaman konseptual perbedaan gejala vs akar masalah",
+    "Kemampuan memberikan contoh yang relevan dan konkret dari konteks Unit Pelayanan",
+    "Pemahaman konsekuensi nyata dari salah sasaran dalam analisis"
+   ],
+   "ideal": [
+    {
+     "type": "text",
+     "text": "Perbedaan mendasar:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "",
+       "Symptom (Gejala)",
+       "Root Cause (Akar Masalah)"
+      ],
+      [
+       "Definisi",
+       "Manifestasi yang terlihat — apa yang diamati atau dirasakan secara langsung",
+       "Penyebab paling fundamental yang, jika diatasi, menghilangkan gejala secara permanen"
+      ],
+      [
+       "Karakteristik",
+       "Terlihat di permukaan, mudah dideteksi",
+       "Tersembunyi di bawah permukaan, butuh penggalian"
+      ],
+      [
+       "Contoh Unit Pelayanan",
+       "Antrian panjang setiap Senin pagi",
+       "Tidak ada sistem penjadwalan penanganan — semua pelanggan datang walk-in di jam yang sama"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Contoh nyata: Staf terjebak menangani gejala"
+    },
+    {
+     "type": "quote",
+     "text": "Gejala: Antrian panjang di Unit Pelayanan. Solusi permukaan: staf merekomendasikan \"tambah petugas lapangan.\" Root cause sesungguhnya: Tidak ada sistem penjadwalan — semua pelanggan datang walk-in di jam yang sama.",
+     "copyable": true
+    },
+    {
+     "type": "text",
+     "text": "Dampak negatif menangani gejala saja:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Masalah berulang — antrian tetap panjang di jam sibuk meski sudah ada petugas lapangan baru, karena sistem penjadwalan tidak diperbaiki",
+      "Pemborosan sumber daya — Manajer Wilayah mengeluarkan biaya rekrut dan gaji petugas lapangan baru tanpa hasil signifikan",
+      "Kehilangan kepercayaan pelanggan — pelanggan tetap kecewa dan beralih ke unit pelayanan lain",
+      "Staf kehilangan kredibilitas — rekomendasi yang tidak menyelesaikan masalah membuat Manajer Wilayah tidak percaya pada judgment staf"
+     ]
+    }
+   ],
+   "minimum": "Definisi symptom dan root cause + satu contoh nyata dari Unit Pelayanan + minimal 3 dampak negatif yang disebutkan.",
+   "mistakes": [
+    "Definisi terlalu abstrak tanpa dikaitkan ke konteks Unit Pelayanan",
+    "Contoh tidak spesifik — hanya menyebut \"masalah antrian\" tanpa menjelaskan mengapa itu adalah gejala, bukan root cause",
+    "Dampak negatif hanya 1 — padahal soal menuntut pemahaman bahwa efeknya berlapis-lapis",
+    "Tidak menyebut solusi yang salah sasaran — pembahasan harus menjelaskan mengapa staf terjebak, bukan hanya bahwa ia terjebak"
+   ],
+   "links": []
+  },
+  {
+   "n": 5,
+   "title": "Praktik 5 Why: Reminder Tindak Lanjut Tidak Efektif",
+   "topic": "5 Why Analysis",
+   "question": "Terapkan teknik 5 Why Analysis pada masalah berikut: \"Sistem reminder pemeliharaan berkala di Unit Pelayanan tidak berjalan efektif — hanya 20% pelanggan yang merespons undangan pemeliharaan.\" Lakukan 5 iterasi pertanyaan 'Mengapa?' dan tunjukkan bagaimana setiap jawaban mengarah ke penyebab yang lebih dalam!",
+   "concepts": [
+    "Kemampuan melakukan 5 iterasi berurutan yang kausal — bukan asosiasi atau loncat topik",
+    "Pemahaman bahwa setiap jawaban harus menjadi premis untuk pertanyaan berikutnya",
+    "Kemampuan mengidentifikasi root cause yang actionable dari hasil penggalian"
+   ],
+   "ideal": [
+    {
+     "type": "text",
+     "text": "Masalah: Hanya 20% pelanggan yang merespons undangan pemeliharaan berkala."
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Iterasi",
+       "Pertanyaan",
+       "Jawaban"
+      ],
+      [
+       "Why 1",
+       "Mengapa hanya 20% yang merespons?",
+       "Pelanggan tidak melihat atau mengabaikan pesan reminder yang dikirim"
+      ],
+      [
+       "Why 2",
+       "Mengapa pelanggan mengabaikan pesan?",
+       "Pesan dikirim via SMS blast generik — isinya sama untuk semua pelanggan, terasa seperti spam"
+      ],
+      [
+       "Why 3",
+       "Mengapa pesan tidak dipersonalisasi?",
+       "Staf tidak memiliki waktu dan data yang cukup untuk membuat pesan personal"
+      ],
+      [
+       "Why 4",
+       "Mengapa staf tidak memiliki data yang cukup?",
+       "Data riwayat pengaduan pelanggan tidak dicatat dengan lengkap dan terstruktur"
+      ],
+      [
+       "Why 5",
+       "Mengapa pencatatan tidak lengkap?",
+       "Tidak ada SOP yang mewajibkan pencatatan lengkap data pelanggan setiap kali penanganan"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Root Cause: Tidak adanya SOP pencatatan data pelanggan yang konsisten dan mekanisme kontrol pelaksanaannya."
+    },
+    {
+     "type": "text",
+     "text": "Solusi tepat sasaran:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Buat SOP standar input data pelanggan (nama, nomor HP, kategori pelanggan, riwayat pengaduan) setiap kunjungan",
+      "Briefing Kepala Unit Pelayanan untuk menegakkan SOP ini",
+      "Audit data pelanggan secara berkala (misalnya: cek sampel 20 data per minggu)",
+      "Setelah data terstandarisasi, baru kembangkan sistem reminder yang dipersonalisasi"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Jawaban yang baik memiliki rantai kausal yang ketat — setiap jawaban secara logis menyebabkan situasi berikutnya:"
+    },
+    {
+     "type": "text",
+     "text": "✓ Rantai kausal yang benar: Respons rendah ← pesan diabaikan ← pesan generik ← tidak ada data ← tidak ada SOP data ✓"
+    },
+    {
+     "type": "text",
+     "text": "✗ Rantai yang tidak kausal (jebakan umum): Respons rendah ← petugas lapangan kurang ramah ← tidak ada training ← ... (Loncat ke topik yang tidak kausal — dari masalah reminder ke kualitas petugas lapangan)"
+    }
+   ],
+   "minimum": "5 iterasi berurutan yang kausal + identifikasi root cause + 1 solusi yang tepat sasaran (menyentuh root cause, bukan gejalanya).",
+   "mistakes": [
+    "Jawaban \"Why\" tidak kausal — loncat ke topik lain yang tidak berhubungan secara langsung",
+    "Berhenti di Why 3 — tidak menggali cukup dalam sampai ke root cause yang actionable",
+    "Root cause tidak actionable — misal \"karena budaya unit pelayanan yang buruk\" terlalu abstrak untuk diambil tindakan",
+    "Solusi menyentuh gejala — misalnya merekomendasikan \"kirim pesan lebih sering\" padahal root cause adalah data yang tidak lengkap"
+   ],
+   "links": []
+  },
+  {
+   "n": 6,
+   "title": "Kapan 5 Why, Kapan Fishbone?",
+   "topic": "5 Why Analysis",
+   "question": "Kapan sebaiknya seorang staf PAM Jaya menggunakan 5 Why Analysis, dan kapan sebaiknya menggunakan Fishbone Diagram? Jelaskan kelebihan dan keterbatasan masing-masing metode, dan berikan satu contoh masalah Unit Pelayanan yang lebih cocok diselesaikan dengan 5 Why dan satu contoh yang lebih cocok dengan Fishbone!",
+   "concepts": [
+    "Pemahaman kapabilitas unik masing-masing tool",
+    "Kemampuan memilih tool yang tepat berdasarkan karakteristik masalah",
+    "Pemahaman bahwa kedua tools saling melengkapi, bukan bersaing"
+   ],
+   "ideal": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Aspek",
+       "5 Why Analysis",
+       "Fishbone Diagram"
+      ],
+      [
+       "Kelebihan",
+       "Sederhana, cepat, tidak butuh banyak data awal; efektif untuk masalah yang memiliki satu rantai sebab-akibat yang jelas",
+       "Komprehensif (melihat masalah dari 6 sudut sekaligus); mencegah bias analitis; cocok untuk kolaborasi tim"
+      ],
+      [
+       "Keterbatasan",
+       "Kurang efektif untuk masalah kompleks multi-faktor; bergantung pada pengetahuan analis; rentan menghasilkan root cause yang berbeda di tangan orang yang berbeda",
+       "Lebih memakan waktu; butuh kolaborasi tim; bisa terlalu luas untuk masalah yang sederhana"
+      ],
+      [
+       "Gunakan ketika",
+       "Masalah jelas dan spesifik; kemungkinan penyebab linear dan tunggal",
+       "Masalah multifaktor dan kompleks; tidak jelas mana penyebab utamanya"
+      ],
+      [
+       "Contoh Unit Pelayanan",
+       "\"Petugas lapangan X sering salah memasang meter air\"",
+       "\"Kepuasan pelanggan Unit Pelayanan turun signifikan dalam 6 bulan terakhir\""
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Contoh cocok untuk 5 Why: \"Petugas lapangan sering salah memasang meter air\" — masalah spesifik, satu rantai sebab-akibat, bisa digali vertikal."
+    },
+    {
+     "type": "text",
+     "text": "Contoh cocok untuk Fishbone: \"CSI Unit Pelayanan turun selama 6 bulan\" — masalah kompleks, melibatkan banyak faktor dari berbagai dimensi, perlu dilihat secara komprehensif dulu."
+    }
+   ],
+   "minimum": "Kelebihan dan keterbatasan masing-masing (minimal 2 poin per tool) + satu contoh konkret Unit Pelayanan untuk masing-masing.",
+   "mistakes": [
+    "Hanya menyebut kelebihan, tidak menyebut keterbatasan — soal secara eksplisit meminta keduanya",
+    "Contoh masalah tidak tepat konteks — memberikan contoh dari industri lain, bukan Unit Pelayanan",
+    "Menyatakan salah satu tool lebih baik — keduanya sama-sama valid; yang berbeda adalah konteks penggunaannya",
+    "Tidak menyebut strategi kombinasi — idealnya jelaskan bahwa Fishbone dan 5 Why digunakan bersama secara berurutan"
+   ],
+   "links": []
+  },
+  {
+   "n": 7,
+   "title": "5 Fase Design Thinking: Kasus Jarak Unit Pelayanan Jauh",
+   "topic": "Design Thinking untuk Improvement",
+   "question": "Jelaskan bagaimana 5 fase Design Thinking (Empathize, Define, Ideate, Prototype, Test) dapat diterapkan untuk mengatasi tantangan \"Jarak Unit Pelayanan yang Jauh dari Konsumen\" di area binaan Anda. Berikan contoh konkret aktivitas yang dilakukan di setiap fase!",
+   "concepts": [
+    "Pemahaman urutan dan tujuan setiap fase Design Thinking",
+    "Kemampuan menghasilkan aktivitas konkret yang relevan untuk kasus jarak Unit Pelayanan",
+    "Pemahaman bahwa DT berpusat pada manusia — solusi lahir dari pemahaman kebutuhan pengguna"
+   ],
+   "ideal": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Fase",
+       "Aktivitas Konkret di Kasus Jarak Jauh"
+      ],
+      [
+       "1. Empathize",
+       "Wawancara mendalam dengan pelanggan di area terpencil: seberapa jauh jarak ke Unit Pelayanan terdekat? Berapa lama waktu tempuh? Apa yang membuat mereka tidak melapor meski aliran bermasalah? Solusi apa yang mereka harapkan? Kunjungi langsung area tersebut untuk observasi langsung."
+      ],
+      [
+       "2. Define",
+       "Rumuskan problem statement human-centered: \"Pelanggan di kecamatan X tidak bisa rutin pemeliharaan berkala karena perlu 2+ jam pulang-pergi ke Unit Pelayanan terdekat, sehingga jaringan pelanggan tidak terpelihara dan berpotensi membahayakan keselamatan.\" Buat HMW question: \"Bagaimana kita bisa membawa layanan resmi PAM Jaya lebih dekat ke pelanggan?\""
+      ],
+      [
+       "3. Ideate",
+       "Brainstorm solusi tanpa filter: layanan keliling/mobile, partnership dengan kelurahan dan pengurus RW untuk triage awal, program pengaduan kolektif per RW, sub-outlet di pasar tradisional, layanan jemput bola saat kegiatan warga, mini kantor layanan berbasis kontainer."
+      ],
+      [
+       "4. Prototype",
+       "Pilih 1–2 ide paling feasible. Contoh: jadwalkan program layanan keliling 1x per bulan ke desa tertentu, menggunakan 1 petugas lapangan dengan peralatan lengkap di pickup truck. Tentukan rute, jadwal, dan SOP minimal."
+      ],
+      [
+       "5. Test",
+       "Jalankan pilot program 2–3 bulan. Ukur: jumlah pelanggan yang dilayani, tingkat kepuasan, biaya operasional vs revenue, dan kelayakan keberlanjutan. Kumpulkan feedback, iterasi, baru replikasi ke area lain."
+      ]
+     ]
+    }
+   ],
+   "minimum": "5 fase berurutan + minimal 1 aktivitas konkret per fase yang relevan dengan konteks jarak jauh.",
+   "mistakes": [
+    "Fase Empathize terlalu dangkal — hanya menyebut \"wawancara pelanggan\" tanpa menjelaskan apa yang ditanyakan dan mengapa itu penting",
+    "Fase Define tidak membuat problem statement — langsung ke solusi tanpa mendefinisikan masalah dari sudut pandang manusia",
+    "Fase Ideate hanya 1–2 ide — Ideate seharusnya menghasilkan banyak alternatif tanpa filter; brainstorm yang baik menghasilkan 5–10+ ide",
+    "Tidak ada mekanisme evaluasi di fase Test — prototype dijalankan tapi tidak ada cara mengukur keberhasilannya"
+   ],
+   "links": []
+  },
+  {
+   "n": 8,
+   "title": "Mengapa Empathize Adalah Fondasi",
+   "topic": "Design Thinking untuk Improvement",
+   "question": "Mengapa fase 'Empathize' dianggap sebagai fondasi yang paling penting dalam Design Thinking, terutama dalam konteks pekerjaan staf PAM Jaya yang mengelola Unit Pelayanan? Apa yang bisa terjadi jika staf langsung melompat ke solusi tanpa fase Empathize yang memadai?",
+   "concepts": [
+    "Pemahaman filosofi human-centered yang menjadi inti Design Thinking",
+    "Kemampuan mengidentifikasi tiga kelompok stakeholder yang perlu dipahami staf",
+    "Pemahaman risiko konkret dari solusi tanpa empati"
+   ],
+   "ideal": [
+    {
+     "type": "text",
+     "text": "Mengapa Empathize adalah fondasi:"
+    },
+    {
+     "type": "text",
+     "text": "Design Thinking berangkat dari satu premis utama: solusi terbaik harus berpusat pada pemahaman mendalam tentang manusia — bukan pada asumsi pembuat solusi. Empathize adalah gerbang masuk ke pemahaman itu."
+    },
+    {
+     "type": "text",
+     "text": "Tiga kelompok yang harus dipahami staf secara mendalam:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Pelanggan Unit Pelayanan — kebutuhan nyata, titik frustrasi, dan harapan terhadap kantor pelayanan resmi",
+      "Manajer Wilayah/Kepala Divisi/Kepala Unit Pelayanan — tekanan bisnis, keterbatasan sumber daya, aspirasi, dan resistensi terhadap perubahan",
+      "Petugas lapangan — hambatan nyata dalam memberikan layanan berkualitas, motivasi, dan beban kerja"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Risiko jika langsung ke solusi tanpa Empathize:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Solusi tidak relevan — staf merekomendasikan program diskon besar-besaran, padahal masalah utama pelanggan adalah jam operasional Unit Pelayanan yang tidak fleksibel (bukan harga).",
+      "Resistensi implementasi — Manajer Wilayah menolak solusi karena tidak mempertimbangkan kondisi keuangan atau keterbatasan SDM mereka.",
+      "Pemborosan waktu dan sumber daya — sudah investasi di solusi yang salah sasaran, harus mulai ulang.",
+      "Kehilangan kepercayaan stakeholder — pelanggan, Manajer Wilayah, dan petugas lapangan tidak merasa didengar; engagement dan trust terhadap staf menurun."
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Keunggulan DT vs Fishbone & 5 Why: Fishbone dan 5 Why unggul dalam menganalisis sistem dan proses, tapi tidak menyentuh perilaku dan emosi manusia. Design Thinking unggul justru karena kemampuan empatinya."
+    }
+   ],
+   "minimum": "Alasan Empathize penting (human-centered) + 2–3 kelompok stakeholder + minimal 3 risiko jika skip Empathize.",
+   "mistakes": [
+    "Hanya menyebut \"memahami pelanggan\" tanpa menyebutkan Manajer Wilayah dan petugas lapangan sebagai stakeholder yang sama pentingnya",
+    "Risiko hanya 1–2 — padahal soal meminta pemahaman tentang efek berantai dari melewatkan empati",
+    "Tidak membandingkan DT dengan tools lain — padahal perbandingan ini menunjukkan mengapa empati menjadi diferensiasi utama DT"
+   ],
+   "links": []
+  },
+  {
+   "n": 9,
+   "title": "AI di Setiap Fase Design Thinking",
+   "topic": "AI sebagai Partner Analysis & Problem Solving",
+   "question": "Jelaskan bagaimana seorang staf PAM Jaya dapat menggunakan AI sebagai 'analyst assistant' dalam proses Design Thinking untuk mengatasi masalah kualitas layanan di Unit Pelayanan. Berikan contoh konkret prompt atau pertanyaan yang bisa diajukan ke AI di setiap fase Design Thinking, dan jelaskan apa nilai tambah yang diberikan AI dibanding bekerja manual!",
+   "concepts": [
+    "Pemahaman peran AI yang spesifik di masing-masing fase DT — bukan hanya \"AI membantu\"",
+    "Kemampuan menyusun contoh prompt konkret yang relevant untuk konteks Unit Pelayanan",
+    "Pemahaman tentang nilai tambah AI dibanding cara manual"
+   ],
+   "ideal": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Fase DT",
+       "Contoh Prompt ke AI",
+       "Nilai Tambah AI"
+      ],
+      [
+       "Empathize",
+       "\"Saya punya 50 catatan keluhan pelanggan Unit Pelayanan berikut [data]. Identifikasi pola utama, kelompokkan berdasarkan kategori, dan temukan insight yang tersembunyi.\"",
+       "Memproses data lebih cepat; menemukan pola yang terlewat secara manual"
+      ],
+      [
+       "Define",
+       "\"Dari insight empati berikut [ringkasan], bantu saya merumuskan problem statement menggunakan format 'How Might We' — fokus pada kebutuhan pelanggan, bukan kebutuhan bisnis.\"",
+       "Menyarankan berbagai sudut pandang framing masalah yang tidak terpikirkan sebelumnya"
+      ],
+      [
+       "Ideate",
+       "\"Saya perlu solusi untuk meningkatkan konsistensi kualitas layanan Unit Pelayanan dengan 5 petugas lapangan dan anggaran terbatas. Generate 10 ide solusi — termasuk ide yang tidak konvensional.\"",
+       "Menghasilkan lebih banyak variasi ide dalam hitungan detik"
+      ],
+      [
+       "Prototype",
+       "\"Buatkan template SOP quality control penanganan pengaduan untuk Unit Pelayanan kecil dengan 5 langkah pemeriksaan wajib sebelum tiket pengaduan ditutup.\"",
+       "Hemat waktu membuat dokumen dari nol; output langsung bisa diadaptasi"
+      ],
+      [
+       "Test",
+       "\"Bantu saya buat kuesioner kepuasan pelanggan 5 pertanyaan yang valid untuk mengukur efektivitas program quality control ini.\"",
+       "Menghasilkan instrumen evaluasi yang terstruktur dan dapat diandalkan"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Nilai tambah AI secara umum:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Kecepatan — analisis yang butuh 2 jam manual bisa selesai dalam 10 menit",
+      "Lebih banyak perspektif — AI tidak punya \"buta titik\" yang sering dimiliki manusia berdasarkan pengalaman",
+      "Mengurangi bias kognitif — AI tidak punya preferensi personal terhadap solusi tertentu",
+      "Fokus pada judgement — dengan AI menangani analisis awal, staf bisa fokus pada pekerjaan yang membutuhkan pertimbangan manusia"
+     ]
+    }
+   ],
+   "minimum": "Minimal 3 fase DT dengan contoh prompt konkret + minimal 3 nilai tambah AI yang spesifik.",
+   "mistakes": [
+    "Prompt terlalu umum — \"tanya AI tentang kualitas layanan\" bukan contoh prompt konkret",
+    "Nilai tambah hanya \"lebih cepat\" — padahal ada dimensi lain: lebih banyak perspektif, mengurangi bias, dll",
+    "Tidak menyebut semua 5 fase — soal meminta AI di setiap fase DT",
+    "Tidak ada konteks Unit Pelayanan dalam prompt — prompt yang baik harus spesifik, bukan generik"
+   ],
+   "links": []
+  },
+  {
+   "n": 10,
+   "title": "\"AI tidak menggantikan Staf\": Pembedaan Peran",
+   "topic": "AI sebagai Partner Analysis & Problem Solving",
+   "question": "Prinsip utama Gen AI for Business Productivity 2026 menyatakan: \"AI tidak menggantikan staf PAM Jaya, namun AI memperkuat analisis dan menajamkan judgement mereka.\" Jelaskan mengapa prinsip ini penting, dan apa yang membedakan peran manusia (staf) dengan peran AI dalam proses pengambilan keputusan di lapangan Unit Pelayanan?",
+   "concepts": [
+    "Pemahaman mendalam tentang kapabilitas unik manusia yang tidak bisa digantikan AI",
+    "Kemampuan mengidentifikasi kapabilitas unik AI yang melampaui kemampuan manusia",
+    "Pemahaman tentang risiko over-reliance pada AI"
+   ],
+   "ideal": [
+    {
+     "type": "text",
+     "text": "Mengapa prinsip \"AI tidak menggantikan staf\" penting:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "Mencegah over-reliance — Jika staf sepenuhnya menyerahkan keputusan ke AI, mereka kehilangan kemampuan analisis kritis. Ketika AI salah atau tidak tersedia, kualitas keputusan bisa turun drastis.",
+      "Menjaga akuntabilitas profesional — Keputusan yang berdampak pada bisnis Manajer Wilayah dan keselamatan pelanggan harus ada yang bertanggung jawab secara profesional. AI tidak bisa dimintai pertanggungjawaban atas keputusan yang salah.",
+      "Konteks lokal yang unik — AI tidak memiliki pengetahuan tentang kultur, hubungan personal, dan dinamika spesifik setiap Unit Pelayanan yang hanya dipahami staf melalui pengalaman lapangan bertahun-tahun."
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Yang AI lakukan lebih baik dari manusia:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Menganalisis data dalam jumlah besar dengan cepat dan akurat",
+      "Menemukan pola yang tidak terlihat secara manual",
+      "Menghasilkan banyak variasi ide solusi dalam hitungan detik",
+      "Membuat draft dokumen, template, atau laporan terstruktur",
+      "Memberikan perspektif alternatif yang bebas bias kognitif"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Yang harus tetap dilakukan staf (tidak bisa digantikan AI):"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Membangun hubungan kepercayaan dengan Manajer Wilayah, petugas lapangan, dan stakeholder unit",
+      "Membaca situasi emosional dan dinamika interpersonal di lapangan",
+      "Memahami konteks budaya, kebijakan lokal, dan kondisi bisnis spesifik",
+      "Membuat keputusan akhir yang mempertimbangkan faktor-faktor yang tidak terukur",
+      "Menjalankan tanggung jawab profesional dan etis sebagai staf"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kesimpulan — staf sebagai \"Conductor\": staf yang efektif di era AI adalah yang mampu bertindak sebagai conductor — menggunakan AI sebagai instrumen analisis yang kuat sambil tetap memegang kendali atas judgement akhir dan tanggung jawab terhadap hasilnya."
+    }
+   ],
+   "minimum": "Minimal 2 alasan mengapa prinsip ini penting + masing-masing minimal 4 poin untuk peran AI dan peran staf.",
+   "mistakes": [
+    "Terlalu fokus pada satu sisi — hanya membahas kelebihan AI tanpa menjelaskan apa yang tidak bisa dilakukan AI",
+    "Alasan \"AI tidak menggantikan\" terlalu klise — hanya menyebut \"AI tidak punya perasaan\" tanpa mengkaitkan ke konteks akuntabilitas dan konteks lokal",
+    "Tidak menyebut risiko over-reliance — ini adalah poin krusial yang membedakan jawaban baik dari jawaban biasa",
+    "Tidak ada metafora atau konsep yang merangkum — jawaban terkuat mengakhiri dengan konsep yang merangkum posisi staf vs AI (seperti \"conductor\" atau \"pilot dan autopilot\")"
+   ],
+   "links": []
+  }
+ ]
+}
