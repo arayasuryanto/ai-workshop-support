@@ -1,38 +1,36 @@
 # AI Workshop Support — PAM Jaya × BusinessFirst
 
-Landing page baru untuk **Gen AI for Business Productivity 2026** (workshop 2 hari, PAM Jaya × BusinessFirst),
-dibangun sebagai lapisan tampilan di atas platform workshop yang sudah berjalan di
-https://workshop-ai-pamjaya.vercel.app.
+A refreshed landing page for **Gen AI for Business Productivity 2026**, the two-day in-house workshop run by
+BusinessFirst for PAM Jaya. It sits in front of the existing workshop platform at
+https://workshop-ai-pamjaya.vercel.app: same content, same order, new presentation.
 
 **Live:** https://workshoplab.dockbay.xyz
 
-## Apa yang ada di sini
+## What's here
 
-- **Landing page** (`app/`) — Vite + React 19 + Tailwind + Motion. Isi dan urutannya mengikuti halaman depan
-  platform asli (hero → 3 pilar → jadwal → 12 sesi → alur belajar), dengan tampilan dan animasi baru:
-  - Hero bergaya kartu bertumpuk, 3 pilar masing-masing dengan mini-interface hidup dari materi workshop.
-  - *Curriculum explorer* 12 sesi: daftar + panel detail (poin kunci, "kenapa penting", isi materi, tujuan sesi).
-  - Alur belajar 5 langkah, tiap langkah punya visual sendiri.
-  - Semua tombol (Masuk, Baca materi, Dashboard, Prompt Library, Case Study) mengarah ke platform asli.
-- **Modul interaktif (belum diaktifkan di menu)** — peta belajar, lab praktik (Prompt Builder, Fishbone, 5 Why,
-  Pareto), pustaka prompt, latihan soal. Masih bisa dibuka di `/#/peta`, `/#/lab`, `/#/prompt`, `/#/latihan`
-  untuk pratinjau. Ini calon pengganti dashboard, dibahas belakangan.
-- `app/public/program.json`, `landing.json`, `quiz.json` — data materi yang dipakai halaman (diturunkan dari
-  platform asli). **Isi materi adalah milik BusinessFirst / Pak Guntar.**
-- `notes/PETA-SITUS-2026-09-24.md` — peta situs & alur platform asli.
-- `scrape/` — skrip pemetaan (hasil mentahnya tidak ikut di repo).
+- **Landing page** (`app/`) — Vite + React 19 + Tailwind + Motion.
+  - Hero with fanned cards: the three pillars (Understand & Explore, Practice & Apply, Integrate), each with a
+    small live interface drawn from the workshop material.
+  - Curriculum explorer for the twelve sessions: session list plus a detail panel (key points, why it matters,
+    outline, learning goals).
+  - Five-step learning journey, one visual per step.
+  - Every action (Masuk, Baca materi, Workshop, Dashboard, Prompt Library, Case Study) goes to the existing platform.
+- `app/public/program.json`, `landing.json`, `quiz.json` — the content the page renders, derived from the platform.
+  **The material belongs to BusinessFirst / Pak Guntar.**
+- `notes/PETA-SITUS-2026-09-24.md` — site map and flows of the existing platform.
+- `scrape/` — the mapping scripts (raw output is not in the repo).
 
-## Menjalankan
+## Run
 
 ```bash
 cd app && npm install && npm run dev      # http://localhost:8768
-npm run build                              # output ke app/dist
+npm run build                              # output in app/dist
 ```
 
-Deploy: `bash deploy.sh` (build → rsync ke workshoplab.dockbay.xyz → verifikasi).
+Deploy: `bash deploy.sh` (build → rsync to workshoplab.dockbay.xyz → verify).
 
-## Catatan
+## Notes
 
-- Jam per sesi sengaja tidak ditampilkan (data sumber tidak konsisten); hanya jam program 08.30–16.30.
-- Teks "Why Important" di sumber terpotong ±120 karakter; di landing ditampilkan sampai kalimat lengkap terakhir.
-- Halaman diberi `noindex` sampai diputuskan mau dipublikasikan atau tidak.
+- Per-session times are not shown (the source values are inconsistent); only the programme hours 08.30–16.30.
+- The source truncates each "Why Important" text at about 120 characters; the landing shows up to the last full sentence.
+- The page is `noindex` until publishing is decided.

@@ -15,7 +15,7 @@ const fade = { initial: { opacity: 0, y: 18 }, whileInView: { opacity: 1, y: 0 }
 function Header() {
   const [solid, setSolid] = useState(false);
   useEffect(() => { const f = () => setSolid(window.scrollY > 24); f(); addEventListener('scroll', f, { passive: true }); return () => removeEventListener('scroll', f); }, []);
-  const links = [[`${SRC}/materi`, 'Workshop'], ['#materi', 'Materi'], [`${SRC}/dashboard`, 'Dashboard']];
+  const links = [[`${SRC}/materi`, 'Workshop'], [`${SRC}/materi`, 'Materi'], [`${SRC}/dashboard`, 'Dashboard']];
   return (
     <header className="sticky top-0 z-40 px-4 pt-3 md:pt-4">
       <div className={cx('mx-auto max-w-[1180px] flex items-center gap-3 h-14 pl-3 pr-2 rounded-2xl border transition-all', solid ? 'glass border-white/70 shadow-soft' : 'border-transparent')}>
