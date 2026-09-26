@@ -1,0 +1,13 @@
+/* Tailwind v4: put this in your global CSS instead of tailwind.landing.js */
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --color-ink: #0f172a; --color-ink-2: #334155; --color-ink-3: #64748b; --color-ink-4: #94a3b8;
+  --color-line: #e6ebf3; --color-paper: #f7f9fc; --color-mint: #10b981;
+  --color-brand: #0256f4; --color-brand-50: #eaf1ff; --color-brand-100: #d3e2ff; --color-brand-200: #a9c6ff; --color-brand-600: #024ad6; --color-brand-700: #023db0;
+  --color-sky: #22b8f5; --color-sky-50: #e9f8ff; --color-sky-100: #cdefff; --color-sky-400: #38bdf8; --color-sky-600: #0891c9;
+  --shadow-soft: 0 1px 2px rgba(15,23,42,.04), 0 8px 24px -8px rgba(15,23,42,.08);
+  --shadow-lift: 0 2px 4px rgba(15,23,42,.04), 0 18px 40px -12px rgba(15,23,42,.16);
+  --shadow-glow: 0 10px 30px -8px rgba(2,86,244,.45);
+  --radius-4xl: 28px;
+}

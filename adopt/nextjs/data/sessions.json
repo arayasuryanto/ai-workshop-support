@@ -1,0 +1,2208 @@
+{
+ "sesi-01-memahami-generative-ai": {
+  "read_min": 9,
+  "stats": {
+   "sections": 9,
+   "blocks": 52,
+   "copyable": 5,
+   "words": 1591
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Menjelaskan perbedaan AI, Machine Learning, dan Generative AI dengan bahasa sendiri",
+       "Menjelaskan secara sederhana bagaimana model bahasa menghasilkan jawaban",
+       "Menyebutkan apa yang bisa dan tidak bisa dilakukan Generative AI",
+       "Menjelaskan mengapa AI bisa salah dengan sangat percaya diri",
+       "Memposisikan AI dalam pekerjaan Anda sendiri: sebagai alat, bukan pengganti"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Tiga Istilah yang Sering Tertukar",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "2. Bagaimana Model Bahasa Sebenarnya Bekerja",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Model bahasa memprediksi kata berikutnya"
+     },
+     {
+      "type": "subheading",
+      "text": "Tiga konsekuensi penting dari cara kerja ini"
+     }
+    ]
+   },
+   {
+    "heading": "3. Apa yang Generative AI Kuasai",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Mengubah bentuk (transformasi)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Panjang menjadi ringkas: laporan teknis 20 halaman → ringkasan eksekutif 1 halaman",
+       "Tidak terstruktur menjadi terstruktur: 50 catatan pengaduan → tabel per kategori",
+       "Bahasa teknis menjadi bahasa awam: penjelasan tekanan jaringan → kalimat yang dipahami pelanggan",
+       "Bahasa satu ke bahasa lain"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Menghasilkan draft (generasi)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Draft balasan pengaduan, surat klarifikasi, rilis pers",
+       "Kerangka presentasi, poin-poin rapat",
+       "Variasi ide: 10 alternatif judul, 8 opsi pendekatan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Menganalisis teks (penalaran atas isi)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Menemukan tema berulang dalam kumpulan keluhan",
+       "Membandingkan dua dokumen dan menunjukkan bedanya",
+       "Mengajukan pertanyaan yang belum Anda pikirkan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Menemani berpikir"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Menantang asumsi Anda",
+       "Bermain peran sebagai pihak yang akan mengkritik usulan Anda",
+       "Menjelaskan konsep yang belum Anda kuasai"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "4. Apa yang Tidak Bisa Diandalkan dari Generative AI",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "\"Jagged Frontier\" — batas kemampuan yang tidak rata"
+     }
+    ]
+   },
+   {
+    "heading": "5. Dampaknya Terhadap Pekerjaan — Secara Jujur",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "88% organisasi global melaporkan sudah menggunakan AI dalam sebagian fungsinya (McKinsey, 2025)",
+       "170 juta pekerjaan baru diperkirakan tercipta dan 92 juta hilang menjelang 2030 (World Economic Forum)",
+       "40% pekerjaan global terpapar dampak AI, dan angkanya lebih tinggi di negara maju (IMF)"
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       "Menulis balasan pengaduan",
+       "Menyusun surat klarifikasi tagihan",
+       "Membuat laporan teknis dan ringkasan untuk pimpinan",
+       "Menyiapkan draft dokumen pengadaan",
+       "Menulis rilis pers dan konten edukasi pelanggan",
+       "Membuat materi pelatihan internal dan FAQ"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Yang berubah dan yang tidak"
+     }
+    ]
+   },
+   {
+    "heading": "6. Konteks PAM Jaya: Kenapa Sekarang",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "7. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Uji batas (10 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Pertanyaan konseptual: \"Jelaskan apa itu Non-Revenue Water dan kenapa angkanya penting bagi perusahaan air minum.\"",
+       "Pertanyaan yang butuh data internal: \"Berapa NRW PAM Jaya di zona Jakarta Utara bulan lalu?\"",
+       "Pertanyaan hitungan: \"Kalau 61.000 jiwa mengonsumsi 120 liter per orang per hari, berapa liter per detik yang dibutuhkan?\""
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Petakan pekerjaan Anda (10 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Berapa lama biasanya Anda mengerjakannya?",
+       "Apakah isinya sering mirip antar satu kejadian dan kejadian lain?",
+       "Apakah hasilnya perlu ditinjau orang lain sebelum keluar?"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "AI, ML, dan GenAI adalah tiga lapisan berbeda; yang kita pelajari adalah GenAI berbasis teks",
+       "Model bahasa memprediksi kelanjutan teks, bukan mencari jawaban di database — karena itu ia bisa salah dengan yakin",
+       "GenAI kuat pada transformasi, generasi draft, analisis teks, dan menemani berpikir",
+       "GenAI lemah pada fakta spesifik, data internal, konsistensi, dan hitungan panjang",
+       "Batas kemampuannya tidak rata — memakai AI di luar batas itu bisa membuat hasil kerja lebih buruk, bukan lebih baik",
+       "Pekerjaan yang paling terdampak adalah pekerjaan berbasis dokumen dan komunikasi tertulis — persis yang banyak dilakukan di PAM Jaya"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-02-peluang-ai-dalam-pekerjaan": {
+  "read_min": 8,
+  "stats": {
+   "sections": 9,
+   "blocks": 54,
+   "copyable": 3,
+   "words": 1392
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Mengenali ciri pekerjaan yang cocok dan yang tidak cocok dibantu AI",
+       "Memetakan pekerjaan Anda sendiri ke dalam matriks peluang",
+       "Memilih 3 pekerjaan pertama yang akan Anda otomatisasi sebagian",
+       "Menghindari kesalahan paling umum: memakai AI untuk pekerjaan yang salah"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Tiga Ciri Pekerjaan yang Cocok Dibantu AI",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Ciri 1 — Berulang dengan pola yang mirip"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Balasan pengaduan: bentuknya sama, yang berganti adalah nama, nomor sambungan, dan kategori keluhan",
+       "Notulen rapat mingguan: struktur sama, isinya berbeda",
+       "Laporan bulanan unit: format sama, angkanya berganti"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Ciri 2 — Berbasis teks atau informasi tertulis"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Meringkas laporan → cocok",
+       "Mengukur tekanan di titik jaringan → tidak cocok (itu pekerjaan lapangan)",
+       "Menuliskan hasil pengukuran itu jadi laporan → cocok"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Ciri 3 — Hasilnya masih akan ditinjau manusia"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Draft surat yang akan diperiksa atasan → cocok, risikonya terkendali",
+       "Balasan otomatis yang langsung terkirim ke pelanggan tanpa dibaca siapa pun → berisiko"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "2. Tiga Ciri Pekerjaan yang TIDAK Cocok",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "3. Matriks Peluang: 2 Sumbu, 4 Kuadran",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Sumbu tegak — Frekuensi: seberapa sering Anda mengerjakannya",
+       "Sumbu datar — Beban waktu: berapa lama sekali kerjakan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Kuadran 1 — Sering DAN lama → prioritas utama"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Menulis balasan pengaduan (puluhan per minggu, masing-masing 15–25 menit)",
+       "Menyusun laporan bulanan unit",
+       "Meringkas hasil rapat koordinasi menjadi tindak lanjut"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Kuadran 2 — Sering tapi cepat → otomatiskan dengan template"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Balasan WhatsApp standar per kategori keluhan",
+       "Judul dan ringkasan untuk tiket pengaduan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Kuadran 3 — Jarang tapi lama → bantu per bagian"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Dokumen pengadaan / TOR",
+       "Laporan tahunan unit",
+       "Materi presentasi ke direksi"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Kuadran 4 — Jarang dan cepat → abaikan dulu"
+     }
+    ]
+   },
+   {
+    "heading": "4. Peta Peluang per Unit Kerja PAM Jaya",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "5. Kesalahan Paling Umum di Tahap Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Kesalahan 1 — Mulai dari yang paling sulit"
+     },
+     {
+      "type": "subheading",
+      "text": "Kesalahan 2 — Mengukur dari \"apakah AI bisa\", bukan \"apakah lebih cepat\""
+     },
+     {
+      "type": "subheading",
+      "text": "Kesalahan 3 — Menyerahkan penilaian, bukan hanya pengerjaan"
+     },
+     {
+      "type": "subheading",
+      "text": "Kesalahan 4 — Lupa aturan data"
+     }
+    ]
+   },
+   {
+    "heading": "6. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Inventarisasi pekerjaan (15 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Tempatkan di matriks (10 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Pilih tiga (5 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Anda kuasai betul (sehingga bisa menilai kualitas output AI)",
+       "Ada tahap review sebelum dipakai",
+       "Tidak memuat data pribadi pelanggan"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "7. Format Pencatatan: Kartu Peluang",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Pekerjaan yang cocok dibantu AI punya tiga ciri: berulang, berbasis teks, dan ada peninjauan manusia",
+       "Pekerjaan yang tidak cocok: butuh data sensitif, keputusan final tanpa review, atau pengetahuan lapangan yang hanya Anda punya",
+       "Gunakan matriks frekuensi × beban waktu; mulai dari Kuadran 1 (sering dan lama)",
+       "Kesalahan terbesar di tahap ini adalah mulai dari yang paling sulit dan menyerahkan penilaian, bukan hanya pengerjaan",
+       "Anda sekarang punya tiga pekerjaan terpilih yang akan dibawa sampai capstone"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-03-dasar-dasar-prompting": {
+  "read_min": 8,
+  "stats": {
+   "sections": 8,
+   "blocks": 71,
+   "copyable": 12,
+   "words": 1526
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Menjelaskan lima komponen prompt yang efektif",
+       "Menulis prompt lengkap untuk pekerjaan Anda sendiri",
+       "Mengenali kenapa prompt yang buruk menghasilkan jawaban yang buruk",
+       "Memakai kerangka PERAN – KONTEKS – TUGAS – BATASAN – FORMAT"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Kenapa Prompt Menentukan Segalanya",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "2. Lima Komponen Prompt yang Efektif",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Kerangka PERAN – KONTEKS – TUGAS – BATASAN – FORMAT"
+     },
+     {
+      "type": "subheading",
+      "text": "Komponen 1 — PERAN"
+     },
+     {
+      "type": "subheading",
+      "text": "Komponen 2 — KONTEKS"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Situasi: apa yang sedang terjadi",
+       "Angka: data operasional yang relevan",
+       "Pihak yang terlibat: siapa pembaca, siapa yang mengambil keputusan",
+       "Riwayat: apa yang sudah dicoba sebelumnya"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Komponen 3 — TUGAS"
+     },
+     {
+      "type": "subheading",
+      "text": "Komponen 4 — BATASAN"
+     },
+     {
+      "type": "subheading",
+      "text": "Komponen 5 — FORMAT"
+     }
+    ]
+   },
+   {
+    "heading": "3. Contoh Utuh: Dari Prompt Lemah ke Prompt Kuat",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Kasus: meringkas laporan kebocoran untuk rapat direksi"
+     }
+    ]
+   },
+   {
+    "heading": "4. Empat Kesalahan Prompting yang Paling Sering",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Kesalahan 1 — Menumpuk banyak tugas dalam satu prompt"
+     },
+     {
+      "type": "subheading",
+      "text": "Kesalahan 2 — Menganggap AI tahu konteks Anda"
+     },
+     {
+      "type": "subheading",
+      "text": "Kesalahan 3 — Tidak menyebut siapa pembacanya"
+     },
+     {
+      "type": "subheading",
+      "text": "Kesalahan 4 — Menerima jawaban pertama"
+     }
+    ]
+   },
+   {
+    "heading": "5. Kartu Contek: Template Prompt Serbaguna",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "6. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Perbaiki prompt lemah (10 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "\"Buatkan laporan bulanan.\"",
+       "\"Bantu saya menjawab komplain pelanggan.\"",
+       "\"Jelaskan tentang kebocoran pipa.\""
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Prompt untuk pekerjaan Anda (15 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Berapa lama Anda menulis prompt-nya?",
+       "Berapa lama Anda memperbaiki hasilnya?",
+       "Total waktu vs waktu mengerjakan manual — lebih cepat atau tidak?"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Bandingkan berpasangan (10 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Prompt yang baik punya lima komponen: PERAN, KONTEKS, TUGAS, BATASAN, FORMAT",
+       "KONTEKS paling sering kurang, BATASAN paling sering dilupakan",
+       "Satu batasan wajib: \"kalau informasinya tidak ada, tandai [PERLU DILENGKAPI], jangan mengarang\"",
+       "Satu prompt, satu tugas — jangan menumpuk",
+       "Prompt adalah percakapan, bukan formulir sekali kirim"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-04-prompt-yang-lebih-efektif": {
+  "read_min": 8,
+  "stats": {
+   "sections": 11,
+   "blocks": 59,
+   "copyable": 13,
+   "words": 1374
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Menyempurnakan prompt lewat iterasi, bukan menulis ulang dari nol",
+       "Memakai contoh (few-shot) untuk mengunci gaya dan format",
+       "Memberi umpan balik yang membuat jawaban berikutnya lebih baik",
+       "Mengenali kapan prompt perlu diperbaiki dan kapan pendekatannya yang salah"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Prompt Adalah Percakapan, Bukan Formulir",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "2. Teknik 1 — Berikan Contoh (Few-Shot Prompting)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Zero-shot: menjelaskan saja"
+     },
+     {
+      "type": "subheading",
+      "text": "Few-shot: memberi contoh"
+     },
+     {
+      "type": "subheading",
+      "text": "Kapan few-shot paling berguna"
+     }
+    ]
+   },
+   {
+    "heading": "3. Teknik 2 — Umpan Balik yang Spesifik",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Pola umpan balik yang efektif"
+     }
+    ]
+   },
+   {
+    "heading": "4. Teknik 3 — Minta AI Menunjukkan Cara Berpikirnya",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Jawabannya jadi lebih baik. Model yang menjabarkan langkahnya cenderung membuat kesalahan penalaran lebih sedikit.",
+       "Anda bisa memeriksa. Kalau langkah ke-3 keliru, Anda tahu persis di mana harus mengoreksi — bukan sekadar menolak keseluruhan jawaban."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "5. Teknik 4 — Minta Beberapa Alternatif",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "6. Teknik 5 — Minta AI Mengkritik Hasilnya Sendiri",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "7. Contoh Iterasi Utuh",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Pekerjaan: draft klarifikasi publik soal gangguan aliran"
+     }
+    ]
+   },
+   {
+    "heading": "8. Kapan Prompt Bukan Masalahnya",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "9. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Iterasi terarah (15 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Buat prompt few-shot (15 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Kritik mandiri (10 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Prompt disempurnakan lewat iterasi bertahap, bukan ditulis ulang dari nol",
+       "Few-shot (2–5 contoh) adalah cara tercepat mengunci format dan gaya",
+       "Umpan balik harus spesifik: apa yang bagus, apa yang bermasalah, apa gantinya",
+       "Minta AI menunjukkan langkah berpikirnya — terutama untuk perhitungan",
+       "Minta beberapa alternatif lalu minta penilaian atasnya",
+       "Jalankan kritik mandiri untuk dokumen yang akan keluar dari PAM Jaya",
+       "Kalau berapa kali pun diperbaiki hasilnya tetap buruk, masalahnya bukan prompt"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-05-genai-pekerjaan-sehari-hari": {
+  "read_min": 9,
+  "stats": {
+   "sections": 10,
+   "blocks": 51,
+   "copyable": 11,
+   "words": 1605
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Penulisan — draft surat, balasan, pengumuman",
+       "Peringkasan — dokumen panjang menjadi poin penting",
+       "Riset — memahami topik baru dengan cepat",
+       "Brainstorming — menghasilkan alternatif",
+       "Pengolahan informasi — data berantakan menjadi terstruktur",
+       "Komunikasi — menyesuaikan pesan untuk pembaca berbeda"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Penulisan — Draft Pertama dalam Hitungan Menit",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: balasan pengaduan"
+     },
+     {
+      "type": "subheading",
+      "text": "Variasi lain yang sering dibutuhkan"
+     }
+    ]
+   },
+   {
+    "heading": "2. Peringkasan — Panjang Menjadi Bisa Dipakai",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: ringkasan untuk pimpinan"
+     },
+     {
+      "type": "subheading",
+      "text": "Tiga jenis ringkasan yang berbeda"
+     }
+    ]
+   },
+   {
+    "heading": "3. Riset — Memahami Topik Baru dengan Cepat",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: pemahaman cepat"
+     },
+     {
+      "type": "subheading",
+      "text": "Batas penting untuk riset"
+     }
+    ]
+   },
+   {
+    "heading": "4. Brainstorming — Menghasilkan Alternatif",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: eksplorasi opsi"
+     },
+     {
+      "type": "subheading",
+      "text": "Variasi: AI sebagai penantang"
+     }
+    ]
+   },
+   {
+    "heading": "5. Pengolahan Informasi — Berantakan Menjadi Terstruktur",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: strukturisasi"
+     },
+     {
+      "type": "subheading",
+      "text": "Contoh nyata: notulen menjadi tindak lanjut"
+     }
+    ]
+   },
+   {
+    "heading": "6. Komunikasi — Satu Pesan, Banyak Pembaca",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: adaptasi pesan"
+     }
+    ]
+   },
+   {
+    "heading": "7. Menyusun Pustaka Prompt Pribadi",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Cara sederhana memulai"
+     }
+    ]
+   },
+   {
+    "heading": "8. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Enam jenis, satu jam (30 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Mulai pustaka prompt (15 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Uji ketahanan (10 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Enam jenis pekerjaan yang paling terbantu: penulisan, peringkasan, riset, brainstorming, pengolahan informasi, komunikasi",
+       "Peringkasan memberi rasio manfaat tertinggi; sebutkan siapa pembacanya",
+       "Riset dengan AI berguna untuk memahami peta persoalan, bukan sebagai sumber kutipan",
+       "Brainstorming paling berguna saat Anda minta ide berani, lalu minta penilaiannya",
+       "Bangun pustaka prompt pribadi — di situ nilai jangka panjangnya",
+       "Semua draft yang akan keluar dari PAM Jaya tetap diperiksa manusia"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-06-ai-aman-dan-bertanggung-jawab": {
+  "read_min": 10,
+  "stats": {
+   "sections": 10,
+   "blocks": 74,
+   "copyable": 6,
+   "words": 1796
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Mengenali dan menangani halusinasi AI",
+       "Menerapkan aturan sederhana tentang data apa yang boleh dan tidak boleh ditempel",
+       "Mengenali bias dalam output AI",
+       "Menerapkan protokol verifikasi sebelum output dipakai",
+       "Memahami di mana batas tanggung jawab manusia — dan kenapa batas itu tidak bisa dialihkan"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Halusinasi: Salah dengan Sangat Yakin",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Apa yang terjadi"
+     },
+     {
+      "type": "subheading",
+      "text": "Kenapa ini berbahaya"
+     },
+     {
+      "type": "subheading",
+      "text": "Di mana halusinasi paling sering muncul"
+     },
+     {
+      "type": "subheading",
+      "text": "Tiga cara mengurangi risiko"
+     }
+    ]
+   },
+   {
+    "heading": "2. Kerahasiaan Data: Aturan yang Harus Anda Hafal",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prinsip dasar"
+     },
+     {
+      "type": "subheading",
+      "text": "Uji sederhana sebelum menempel"
+     },
+     {
+      "type": "subheading",
+      "text": "Daftar yang jelas"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Data pribadi pelanggan: nama, NIK, alamat lengkap, nomor telepon, nomor sambungan",
+       "Data pegawai: NIP, data gaji, catatan kepegawaian, hasil penilaian kinerja",
+       "Dokumen pengadaan yang sedang berjalan: HPS, dokumen penawaran vendor, evaluasi",
+       "Data keuangan yang belum dipublikasikan",
+       "Kredensial: password, API key, akses sistem",
+       "Dokumen hukum yang sedang dalam sengketa",
+       "Apa pun yang berlabel rahasia atau terbatas"
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       "Angka agregat tanpa identitas: \"820 pengaduan bulan ini, 34% kategori tagihan\"",
+       "Data yang sudah dipublikasikan resmi",
+       "Pertanyaan konseptual dan teknis umum",
+       "Draft tulisan Anda sendiri yang belum memuat data sensitif",
+       "Data yang sudah Anda samarkan (lihat di bawah)"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Cara menyamarkan data agar tetap berguna"
+     },
+     {
+      "type": "subheading",
+      "text": "Kalau ragu"
+     }
+    ]
+   },
+   {
+    "heading": "3. Bias: Asumsi yang Tidak Terlihat",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Wujudnya dalam pekerjaan PAM Jaya"
+     },
+     {
+      "type": "subheading",
+      "text": "Cara memeriksanya"
+     }
+    ]
+   },
+   {
+    "heading": "4. Protokol Verifikasi: Empat Langkah Sebelum Dipakai",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Langkah 1 — Periksa fakta"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Setiap angka: dari mana asalnya? Ada di bahan yang saya berikan, atau muncul begitu saja?",
+       "Setiap kutipan peraturan: apakah pasal dan nomornya benar? Buka dokumen aslinya.",
+       "Setiap nama: apakah orang atau lembaga ini benar ada, dengan jabatan itu?"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 2 — Periksa logika"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Apakah kesimpulannya benar-benar mengikuti dari datanya?",
+       "Adakah lompatan penalaran yang tidak dijelaskan?",
+       "Kalau ada perhitungan, hitung ulang sendiri."
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 3 — Periksa kepatuhan"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Apakah ada janji yang di luar wewenang kita?",
+       "Apakah konsisten dengan ketentuan tarif dan prosedur yang berlaku?",
+       "Apakah ada pernyataan yang bisa menimbulkan konsekuensi hukum?"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 4 — Periksa keadilan dan nada"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Apakah bisa dipahami oleh semua kelompok pelanggan?",
+       "Apakah nadanya sesuai untuk pembacanya?",
+       "Apakah ada yang bisa disalahpahami?"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "5. Batas Tanggung Jawab: Yang Tidak Bisa Dialihkan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "AI tidak bisa dimintai pertanggungjawaban"
+     },
+     {
+      "type": "subheading",
+      "text": "Empat hal yang tetap milik manusia"
+     },
+     {
+      "type": "subheading",
+      "text": "Pola \"AI mengusulkan, manusia memutuskan\""
+     }
+    ]
+   },
+   {
+    "heading": "6. Kegagalan Nyata yang Bisa Dipelajari",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Chatbot dealer mobil dimanipulasi pengunjung hingga \"menyetujui\" penjualan kendaraan seharga $1",
+       "AI drive-thru restoran cepat saji menambahkan ratusan porsi ke pesanan pelanggan",
+       "Chatbot layanan pemerintah kota memberikan nasihat yang bertentangan dengan hukum yang berlaku"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "7. Kartu Contek: Aturan Sepuluh Detik",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "8. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Berburu halusinasi (10 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Samarkan data (10 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Jalankan protokol verifikasi (10 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Halusinasi paling sering pada angka, kutipan peraturan, nama dokumen, dan tanggal — dan AI justru terdengar lebih yakin saat salah",
+       "Batasi sumber di prompt, minta AI menandai tingkat keyakinannya, verifikasi silang untuk hal penting",
+       "Jangan pernah menempel data pribadi, dokumen pengadaan berjalan, atau data keuangan belum publik — samarkan jadi agregat dan placeholder",
+       "Uji sepuluh detik: \"kalau ini muncul di berita besok, bermasalah?\"",
+       "Periksa bias dari sudut pandang warga yang paling mudah terlewat",
+       "Jalankan protokol empat langkah: fakta, logika, kepatuhan, keadilan",
+       "Tanggung jawab tidak bisa dialihkan ke AI — AI mengusulkan, manusia memutuskan"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-07-penerapan-ai-berbagai-fungsi": {
+  "read_min": 13,
+  "stats": {
+   "sections": 11,
+   "blocks": 60,
+   "copyable": 16,
+   "words": 2290
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": []
+   },
+   {
+    "heading": "1. Operasional — Produksi, Distribusi, dan NRW",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: laporan teknis menjadi ringkasan eksekutif"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: mencari pola dari catatan gangguan"
+     }
+    ]
+   },
+   {
+    "heading": "2. Pelayanan Pelanggan & Pengaduan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: ringkasan komplain lintas kanal"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: paket balasan per kategori"
+     }
+    ]
+   },
+   {
+    "heading": "3. SDM & Change Management",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: FAQ untuk sistem baru"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: rangkuman survei pegawai"
+     }
+    ]
+   },
+   {
+    "heading": "4. Keuangan & Akuntansi",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: narasi dari angka rekap"
+     }
+    ]
+   },
+   {
+    "heading": "5. Pemasaran, Humas & Komunikasi Publik",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: draft klarifikasi publik"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: satu materi, banyak format"
+     }
+    ]
+   },
+   {
+    "heading": "6. Pengembangan Bisnis & Pengadaan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: kerangka TOR"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: tabel perbandingan (dengan data disamarkan)"
+     }
+    ]
+   },
+   {
+    "heading": "7. Perencanaan & Pengembangan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: dokumen perencanaan menjadi bahan presentasi"
+     }
+    ]
+   },
+   {
+    "heading": "8. Manajemen & Kepemimpinan Unit",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Yang paling terbantu"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: persiapan rapat sulit"
+     },
+     {
+      "type": "subheading",
+      "text": "Prompt siap pakai: notulen menjadi tindak lanjut"
+     }
+    ]
+   },
+   {
+    "heading": "9. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Fungsi Anda sendiri (20 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Silang fungsi (15 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Berbagi di kelompok (15 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Setiap fungsi punya pekerjaan berbasis dokumen yang bisa dipercepat AI",
+       "Operasional: laporan teknis → ringkasan eksekutif, pencarian pola gangguan",
+       "Pelayanan Pelanggan: draft balasan per kategori, ringkasan tren komplain",
+       "SDM: FAQ sistem baru, materi pelatihan, rangkuman survei",
+       "Keuangan: narasi dari angka yang sudah final — bukan menghasilkan angkanya",
+       "Humas: draft klarifikasi cepat, satu materi jadi banyak format",
+       "Pengadaan: kerangka TOR dan tabel perbandingan — bukan isi rahasia",
+       "Perencanaan: dokumen tebal → bahan presentasi direksi",
+       "Manajemen: persiapan rapat, notulen → tindak lanjut",
+       "Ide terbaik sering datang dari meminjam teknik antar fungsi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-08-ai-analisis-dan-keputusan": {
+  "read_min": 9,
+  "stats": {
+   "sections": 8,
+   "blocks": 70,
+   "copyable": 13,
+   "words": 1759
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Memakai AI untuk menganalisis informasi, bukan sekadar menuliskannya",
+       "Membandingkan opsi secara terstruktur",
+       "Mengidentifikasi pola dan menyaring insight dari data berantakan",
+       "Menyusun rekomendasi yang bisa dipertanggungjawabkan",
+       "Menggabungkan AI dengan framework analisis klasik: 5 Why, Fishbone, Pareto, Design Thinking"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Analisis Bukan Peringkasan",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "2. Empat Jenis Analisis yang Bisa Dibantu AI",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Jenis 1 — Analisis informasi: apa yang sebenarnya dikatakan data ini"
+     },
+     {
+      "type": "subheading",
+      "text": "Jenis 2 — Perbandingan: mana yang lebih baik dan kenapa"
+     },
+     {
+      "type": "subheading",
+      "text": "Jenis 3 — Identifikasi pola: apa yang berulang"
+     },
+     {
+      "type": "subheading",
+      "text": "Jenis 4 — Penyusunan rekomendasi"
+     }
+    ]
+   },
+   {
+    "heading": "3. Menggabungkan AI dengan Framework Analisis Klasik",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "5 Why + AI"
+     },
+     {
+      "type": "subheading",
+      "text": "Fishbone (6M) + AI"
+     },
+     {
+      "type": "subheading",
+      "text": "Pareto + AI"
+     },
+     {
+      "type": "subheading",
+      "text": "Design Thinking + AI"
+     }
+    ]
+   },
+   {
+    "heading": "4. Empat Jebakan Analisis dengan AI",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Jebakan 1 — Korelasi dianggap sebab-akibat"
+     },
+     {
+      "type": "subheading",
+      "text": "Jebakan 2 — Kesimpulan yang terdengar tajam tapi tidak didukung data"
+     },
+     {
+      "type": "subheading",
+      "text": "Jebakan 3 — Angka yang muncul entah dari mana"
+     },
+     {
+      "type": "subheading",
+      "text": "Jebakan 4 — Analisis tanpa pengetahuan lapangan"
+     }
+    ]
+   },
+   {
+    "heading": "5. Contoh Utuh: Analisis Keluhan Tagihan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Situasi"
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 1 — Pola"
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 2 — Pareto"
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 3 — Akar masalah"
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 4 — Rekomendasi"
+     },
+     {
+      "type": "subheading",
+      "text": "Langkah 5 — Verifikasi manusia"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Cek ulang semua perhitungan Pareto",
+       "Uji rantai 5 Why dengan petugas yang menangani langsung",
+       "Konfirmasi ke unit Billing apakah dugaan tentang proses itu benar",
+       "Periksa apakah rekomendasi tidak bertentangan dengan ketentuan tarif"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "6. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Analisis data Anda (25 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Berburu jebakan (10 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Klaim sebab-akibat yang sebenarnya hanya korelasi",
+       "Kesimpulan yang tidak bisa ditelusuri ke data",
+       "Angka yang tidak jelas asalnya"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Framework klasik + AI (15 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Analisis berbeda dari peringkasan, dan butuh pengawasan jauh lebih ketat",
+       "Empat jenis: analisis informasi, perbandingan, identifikasi pola, penyusunan rekomendasi",
+       "Pertanyaan berharga: \"apa yang TIDAK berubah padahal seharusnya berubah?\"",
+       "Minta AI tidak memutuskan — hasilnya justru analisis trade-off yang lebih berguna",
+       "Framework klasik (5 Why, Fishbone, Pareto, Design Thinking) tetap relevan; AI mempercepatnya",
+       "Empat jebakan: korelasi dianggap sebab, kesimpulan tanpa data, angka entah dari mana, analisis tanpa pengetahuan lapangan",
+       "Perlakukan analisis AI sebagai hipotesis yang harus diuji di lapangan"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-09-teknik-prompting-lanjut": {
+  "read_min": 9,
+  "stats": {
+   "sections": 10,
+   "blocks": 77,
+   "copyable": 14,
+   "words": 1658
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Role Prompting — mengubah siapa yang menjawab",
+       "Context Stuffing — memperkaya bahan yang diberikan",
+       "Prompt Chaining — memecah masalah kompleks jadi langkah bertahap"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Role Prompting — Mengubah \"Siapa\" yang Menjawab",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prinsip"
+     },
+     {
+      "type": "subheading",
+      "text": "Formula"
+     },
+     {
+      "type": "subheading",
+      "text": "Contoh cepat"
+     },
+     {
+      "type": "subheading",
+      "text": "Membangun role yang kuat"
+     }
+    ]
+   },
+   {
+    "heading": "2. Context Stuffing — Memperkaya Bahan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prinsip"
+     },
+     {
+      "type": "subheading",
+      "text": "Formula"
+     },
+     {
+      "type": "subheading",
+      "text": "Empat jenis konteks yang paling berdampak"
+     },
+     {
+      "type": "subheading",
+      "text": "Aturan 70/30"
+     },
+     {
+      "type": "subheading",
+      "text": "Jangan lupa rambu kerahasiaan"
+     }
+    ]
+   },
+   {
+    "heading": "3. Prompt Chaining — Memecah Masalah Kompleks",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prinsip"
+     },
+     {
+      "type": "subheading",
+      "text": "Rantai standar untuk analisis masalah"
+     },
+     {
+      "type": "subheading",
+      "text": "Aturan yang membuatnya berhasil"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Satu chain, satu aspek — jangan menumpuk",
+       "Referensikan output sebelumnya secara eksplisit — tempel isinya, jangan hanya bilang \"berdasarkan yang tadi\"",
+       "Validasi di setiap tahap sebelum lanjut — kesalahan di Chain 1 ikut terbawa sampai Chain 4",
+       "3–5 chain optimal — lebih dari itu kehilangan gambaran besar"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Kenapa validasi antar-chain penting"
+     }
+    ]
+   },
+   {
+    "heading": "4. Teknik Pendukung 1 — Meminta AI Mengevaluasi Hasilnya Sendiri",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Variasi: dua sudut pandang berlawanan"
+     }
+    ]
+   },
+   {
+    "heading": "5. Teknik Pendukung 2 — Penyempurnaan Terarah",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Penyempurnaan bertahap yang efektif"
+     }
+    ]
+   },
+   {
+    "heading": "6. Teknik Pendukung 3 — Output Terstruktur",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Minta format yang bisa langsung dipakai"
+     },
+     {
+      "type": "subheading",
+      "text": "Minta format yang bisa diolah lagi"
+     },
+     {
+      "type": "subheading",
+      "text": "Minta penanda kualitas informasi"
+     }
+    ]
+   },
+   {
+    "heading": "7. Menggabungkan Semuanya",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "8. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Role yang tepat (10 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Role generik (\"Anda ahli\")",
+       "Role spesifik bidang air minum",
+       "Role dari sudut pandang yang berlawanan (misalnya: auditor, atau pelanggan yang kesal)"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Rantai empat langkah (25 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Diagnosis",
+       "Root cause",
+       "Strategi solusi",
+       "Action plan + KPI"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Penanda kualitas (10 menit)"
+     }
+    ]
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Role Prompting: tugas tetap sama, yang berubah siapa yang menjawab — mengubah kosakata, kedalaman, dan prioritas",
+       "Context Stuffing: dampak terbesar; investasikan 70% prompt untuk konteks, dan samarkan data sensitif lebih dulu",
+       "Prompt Chaining: satu chain satu aspek, referensikan output sebelumnya secara eksplisit, validasi di setiap tahap",
+       "Evaluasi mandiri: minta AI mengkritik hasilnya sendiri sebelum Anda pakai",
+       "Penyempurnaan terarah: satu dimensi per putaran, dan katakan \"jangan ubah bagian lain\"",
+       "Output terstruktur: minta format yang bisa langsung dipakai, plus penanda kualitas informasi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-10-merancang-alur-kerja-ai": {
+  "read_min": 9,
+  "stats": {
+   "sections": 11,
+   "blocks": 67,
+   "copyable": 4,
+   "words": 1635
+  },
+  "sections": [
+   {
+    "heading": "Yang Akan Anda Kuasai di Sesi Ini",
+    "role": "goals",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Memetakan proses kerja manual Anda langkah demi langkah",
+       "Menentukan langkah mana yang layak dibantu AI dan mana yang tidak",
+       "Merancang alur kerja berbantuan AI yang punya titik kontrol manusia",
+       "Mengukur apakah alur baru benar-benar lebih baik"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "1. Dari Prompt Sekali Pakai ke Alur Kerja",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "2. Langkah 1 — Petakan Proses Anda Sekarang",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Format pemetaan"
+     },
+     {
+      "type": "subheading",
+      "text": "Contoh: menjawab pengaduan tagihan (proses saat ini)"
+     }
+    ]
+   },
+   {
+    "heading": "3. Langkah 2 — Klasifikasikan Setiap Langkah",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "🟢 HIJAU — Serahkan ke AI"
+     },
+     {
+      "type": "subheading",
+      "text": "🟡 KUNING — AI membantu, manusia memutuskan"
+     },
+     {
+      "type": "subheading",
+      "text": "🔴 MERAH — Manusia saja"
+     },
+     {
+      "type": "subheading",
+      "text": "Contoh klasifikasi"
+     }
+    ]
+   },
+   {
+    "heading": "4. Langkah 3 — Rancang Alur Baru",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Alur baru: menjawab pengaduan tagihan"
+     },
+     {
+      "type": "subheading",
+      "text": "Yang berubah dan yang tetap"
+     }
+    ]
+   },
+   {
+    "heading": "5. Langkah 4 — Tulis Prompt Tersimpan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Format prompt tersimpan"
+     }
+    ]
+   },
+   {
+    "heading": "6. Langkah 5 — Uji dan Ukur",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Protokol uji"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Jalankan alur lama untuk 5 kasus. Catat waktu dan kualitasnya.",
+       "Jalankan alur baru untuk 5 kasus serupa. Catat waktu dan kualitasnya.",
+       "Bandingkan."
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Yang harus diukur"
+     },
+     {
+      "type": "subheading",
+      "text": "Kalau hasilnya tidak lebih baik"
+     }
+    ]
+   },
+   {
+    "heading": "7. Prinsip Perancangan Alur Kerja",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Prinsip 1 — Titik kontrol sebelum output keluar"
+     },
+     {
+      "type": "subheading",
+      "text": "Prinsip 2 — Samarkan data sebelum masuk AI, isi kembali setelahnya"
+     },
+     {
+      "type": "subheading",
+      "text": "Prinsip 3 — Simpan, jangan ketik ulang"
+     },
+     {
+      "type": "subheading",
+      "text": "Prinsip 4 — Rancang agar bisa diserahkan"
+     },
+     {
+      "type": "subheading",
+      "text": "Prinsip 5 — Mulai dari satu, jangan sepuluh"
+     }
+    ]
+   },
+   {
+    "heading": "8. Latihan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Latihan 1 — Petakan proses Anda (20 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 2 — Klasifikasikan (10 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 3 — Rancang alur baru (25 menit)"
+     },
+     {
+      "type": "subheading",
+      "text": "Latihan 4 — Uji (20 menit)"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Waktu sebenarnya vs estimasi",
+       "Berapa banyak koreksi yang dibutuhkan",
+       "Apa yang perlu diperbaiki dari prompt tersimpan Anda"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "9. Lembar Kerja: Rancangan Alur Kerja",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Alur kerja berbeda dari prompt sekali pakai: disimpan, konsisten, bisa diserahkan",
+       "Petakan proses sebagaimana adanya dulu, baru ubah",
+       "Klasifikasikan tiap langkah: 🟢 serahkan ke AI, 🟡 AI menyiapkan manusia memutuskan, 🔴 manusia saja",
+       "Alur yang baik menambah titik kontrol, bukan menguranginya — yang berkurang adalah waktu mengetik",
+       "Pola aman data: samarkan sebelum masuk AI, isi kembali setelah keluar",
+       "Ukur waktu dan kualitas — kalau kualitas turun, alur itu gagal",
+       "Mulai dari satu alur yang benar-benar dipakai"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-11-praktik-alur-kerja-ai-personal": {
+  "read_min": 9,
+  "stats": {
+   "sections": 13,
+   "blocks": 55,
+   "copyable": 4,
+   "words": 1458
+  },
+  "sections": [
+   {
+    "heading": "Sesi Ini Adalah Praktik, Bukan Materi",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "✅ Satu alur kerja lengkap untuk pekerjaan nyata Anda",
+       "✅ Prompt tersimpan yang sudah diuji minimal 3 kali",
+       "✅ Titik kontrol yang jelas",
+       "✅ Bukti pengukuran: berapa waktu yang dihemat, dan apakah kualitasnya terjaga",
+       "✅ Rencana penerapan minggu pertama"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Alur Praktik (135 menit)",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Tahap 1 — Pilih & Petakan (20 menit)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Kriteria memilih pekerjaan"
+     },
+     {
+      "type": "list",
+      "items": [
+       "☑ Anda kerjakan minimal seminggu sekali",
+       "☑ Memakan minimal 20 menit sekali kerjakan",
+       "☑ Sebagian besar berupa pekerjaan tertulis",
+       "☑ Ada tahap peninjauan sebelum hasilnya dipakai",
+       "☑ Anda menguasainya — sehingga bisa menilai kualitas output AI",
+       "☑ Bisa dikerjakan dengan data yang sudah disamarkan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Petakan prosesnya"
+     }
+    ]
+   },
+   {
+    "heading": "Tahap 2 — Rancang (20 menit)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Klasifikasikan"
+     },
+     {
+      "type": "list",
+      "items": [
+       "🟢 HIJAU — serahkan ke AI (berbasis teks, berpola, akan ditinjau)",
+       "🟡 KUNING — AI menyiapkan, manusia memutuskan",
+       "🔴 MERAH — manusia saja (data sensitif / pengetahuan lapangan / tanggung jawab)"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Gambar alur baru"
+     },
+     {
+      "type": "subheading",
+      "text": "Tetapkan rambu data"
+     }
+    ]
+   },
+   {
+    "heading": "Tahap 3 — Bangun Prompt Tersimpan (30 menit)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Daftar periksa sebelum menguji"
+     },
+     {
+      "type": "list",
+      "items": [
+       "☑ Sudah ada PERAN yang spesifik, bukan \"Anda ahli\"",
+       "☑ Sudah ada KONTEKS dengan angka",
+       "☑ Sudah ada BATASAN, termasuk larangan mengarang",
+       "☑ Sudah ada FORMAT yang detail",
+       "☑ Semua data sensitif sudah diganti placeholder",
+       "☑ Ada permintaan menunjukkan langkah perhitungan (kalau ada angka)"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Tahap 4 — Uji Putaran 1 (20 menit)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Catat dengan jujur"
+     },
+     {
+      "type": "subheading",
+      "text": "Tiga masalah terbesar yang Anda temukan"
+     },
+     {
+      "type": "list",
+      "items": [
+       "",
+       "",
+       ""
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Tahap 5 — Perbaiki (15 menit)",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Tahap 6 — Uji Putaran 2 & 3 (20 menit)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Pertanyaan kunci"
+     }
+    ]
+   },
+   {
+    "heading": "Tahap 7 — Dokumentasikan (10 menit)",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Lembar Alur Kerja Final"
+     }
+    ]
+   },
+   {
+    "heading": "Standar Kelulusan Sesi Ini",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "☑ Sudah diuji minimal 3 kasus nyata",
+       "☑ Waktunya lebih cepat dari alur lama",
+       "☑ Kualitasnya sama atau lebih baik",
+       "☑ Punya minimal satu titik kontrol manusia sebelum output keluar",
+       "☑ Rambu data tertulis jelas",
+       "☑ Prompt tersimpan bisa dipakai orang lain tanpa penjelasan lisan",
+       "☑ Ada rencana penerapan minggu pertama"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Kesalahan yang Sering Terjadi di Sesi Praktik",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "\"Saya pilih pekerjaan yang paling sulit\""
+     },
+     {
+      "type": "subheading",
+      "text": "\"Saya buat lima alur sekaligus\""
+     },
+     {
+      "type": "subheading",
+      "text": "\"Prompt saya panjang sekali, pasti bagus\""
+     },
+     {
+      "type": "subheading",
+      "text": "\"Hasilnya kurang bagus, berarti AI-nya tidak cocok\""
+     },
+     {
+      "type": "subheading",
+      "text": "\"Saya lewati saja pengukurannya\""
+     }
+    ]
+   },
+   {
+    "heading": "Setelah Workshop: Minggu Pertama",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Rangkuman Sesi",
+    "role": "summary",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Sesi ini menghasilkan satu alur kerja nyata, bukan konsep",
+       "Pilih pekerjaan yang berpola, bukan yang paling sulit",
+       "Tiga putaran uji adalah standar minimum — putaran pertama hampir selalu mengecewakan",
+       "Uji konsistensi antar-kasus, bukan hanya kualitas satu kasus",
+       "Ukur waktu dan kualitas — keduanya, bukan salah satu",
+       "Alur yang baik bisa dipakai orang lain tanpa penjelasan lisan",
+       "Keberhasilan sesungguhnya: masih dipakai di minggu keempat"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sesi-12-capstone-challenge": {
+  "read_min": 9,
+  "stats": {
+   "sections": 11,
+   "blocks": 50,
+   "copyable": 9,
+   "words": 1505
+  },
+  "sections": [
+   {
+    "heading": "Tantangannya",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Aturan Main",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Yang Harus Dihasilkan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "1. Pernyataan Masalah (spesifik dan terukur)"
+     },
+     {
+      "type": "subheading",
+      "text": "2. Analisis Akar Masalah"
+     },
+     {
+      "type": "subheading",
+      "text": "3. Solusi yang Diusulkan"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Tindakan (kalimat dengan kata kerja jelas)",
+       "Akar masalah mana yang disasar",
+       "Sumber daya yang dibutuhkan",
+       "Perkiraan dampak",
+       "Risiko menjalankan dan risiko tidak menjalankan",
+       "Indikator keberhasilan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "4. Alur Kerja Berbantuan AI"
+     },
+     {
+      "type": "subheading",
+      "text": "5. Catatan Verifikasi — bagian yang paling menentukan"
+     },
+     {
+      "type": "list",
+      "items": [
+       "Angka mana yang Anda hitung ulang sendiri",
+       "Klaim mana yang ternyata tidak didukung data",
+       "Informasi apa yang dikarang AI dan Anda buang",
+       "Apa yang masih perlu diverifikasi ke lapangan sebelum usulan ini diajukan"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Kriteria Penilaian",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Panduan Pengerjaan 45 Menit",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Rantai Prompt yang Disarankan",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Chain 1 — Diagnosis"
+     },
+     {
+      "type": "subheading",
+      "text": "Chain 2 — Akar masalah"
+     },
+     {
+      "type": "subheading",
+      "text": "Chain 3 — Solusi"
+     },
+     {
+      "type": "subheading",
+      "text": "Chain 4 — Kritik mandiri"
+     }
+    ]
+   },
+   {
+    "heading": "Struktur Presentasi 5 Menit",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "subheading",
+      "text": "Kalimat pembuka yang berhasil"
+     },
+     {
+      "type": "subheading",
+      "text": "Kalimat penutup yang berhasil"
+     }
+    ]
+   },
+   {
+    "heading": "Contoh Tema Capstone per Unit Kerja",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Kesalahan yang Menurunkan Nilai",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Setelah Presentasi: Rencana Penerapan",
+    "role": "content",
+    "blocks": []
+   },
+   {
+    "heading": "Penutup Workshop",
+    "role": "content",
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       "Memahami apa itu Generative AI, cara kerjanya, dan batas-batasnya",
+       "Memetakan peluang AI dalam pekerjaan Anda sendiri",
+       "Menguasai dasar dan teknik lanjutan prompting",
+       "Menerapkan AI pada pekerjaan harian di berbagai fungsi",
+       "Memahami rambu keamanan data, halusinasi, bias, dan verifikasi",
+       "Merancang dan menguji satu alur kerja AI personal",
+       "Menyelesaikan satu masalah kerja nyata dari awal sampai usulan"
+      ]
+     },
+     {
+      "type": "subheading",
+      "text": "Yang menentukan apakah dua hari ini berarti"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -35,6 +35,10 @@ copy-paste — that is the "branded AI" pitch from 7–8 Sep (`~/friday/pdf-stud
   `scrape/auth`, `scrape/out` (467 MB raw dump), PDFs, dist, node_modules, `_publish`. Repo carries the course text in
   app/public/*.json — content is Pak Guntar's; flip private with `gh repo edit ... --visibility private` if he prefers.
   Commit author: `Lord-Manager · workshop-platform`, NO Claude co-author trailer (Araya, 26 Sep). README + repo copy in English. Push only on Araya's "push it".
+- **Adoption kit (26 Sep): `adopt/nextjs/`** — landing converted to Next.js App Router client components (relative links,
+  JSON imports, `/assets/` paths, SSR-safe useStore, Tailwind v3 + v4 tokens, PORTING.md). Generated from `app/src` by a
+  one-off script (see git history of this commit); regenerate by hand if the landing changes. Verified: `next build` on
+  Next 16 + Tailwind 4 in a scratch app, page prerenders, no errors, links all relative.
 - Telegram summary + a forwardable draft note for Pak Guntar sent to Araya's chat 26 Sep via mastercontrol `tg.sh`.
 
 ## Status — 24 Sep 2026

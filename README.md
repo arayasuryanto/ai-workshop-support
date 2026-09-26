@@ -17,8 +17,15 @@ https://workshop-ai-pamjaya.vercel.app: same content, same order, new presentati
   - Every action (Masuk, Baca materi, Workshop, Dashboard, Prompt Library, Case Study) goes to the existing platform.
 - `app/public/program.json`, `landing.json`, `quiz.json` — the content the page renders, derived from the platform.
   **The material belongs to BusinessFirst / Pak Guntar.**
+- **`adopt/nextjs/`** — the same landing converted for the existing Next.js platform: client components, JSON
+  data, assets, Tailwind tokens (v3 and v4) and a step-by-step [`PORTING.md`](adopt/nextjs/PORTING.md). Verified
+  with `next build`. Six steps, one new dependency (`motion`), all links relative to the platform's routes.
 - `notes/PETA-SITUS-2026-09-24.md` — site map and flows of the existing platform.
 - `scrape/` — the mapping scripts (raw output is not in the repo).
+
+## Adopting it into the platform
+
+See [`adopt/nextjs/PORTING.md`](adopt/nextjs/PORTING.md). Copy three folders, add the tokens and styles, install `motion`, point the home route at `<Landing />`.
 
 ## Run
 
