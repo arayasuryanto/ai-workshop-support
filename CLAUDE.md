@@ -25,6 +25,18 @@ copy-paste — that is the "branded AI" pitch from 7–8 Sep (`~/friday/pdf-stud
   per page: rendered HTML, clean markdown, headings, **copyable blocks (prompts)**, images, forms/buttons,
   desktop + mobile screenshots. Output → `scrape/out/<host>/`.
 
+## Status — 26 Sep 2026 (latest)
+- **Landing is the public face; everything else links to the ORIGINAL site for now** (Araya, 26 Sep): nav = Workshop
+  (`/materi`) · Materi (#materi) · Dashboard (`/dashboard`); "Masuk" + "Mulai Training" → `/auth/login`; Baca materi →
+  `/materi/<slug>`; closing tiles → materi / prompt-library / case-study / dashboard — all on workshop-ai-pamjaya.vercel.app
+  (`SRC` const in `pages/Landing.jsx`). Our built modules stay reachable but UNLINKED: `/#/peta`, `/#/lab`, `/#/prompt`,
+  `/#/latihan`. Plan: enhance outward-in — landing first, dashboard/modules later.
+- **Git + public repo (26 Sep):** https://github.com/arayasuryanto/ai-workshop-support (main). `.gitignore` excludes
+  `scrape/auth`, `scrape/out` (467 MB raw dump), PDFs, dist, node_modules, `_publish`. Repo carries the course text in
+  app/public/*.json — content is Pak Guntar's; flip private with `gh repo edit ... --visibility private` if he prefers.
+  Commit author: `Claudy · workshop-platform`. Push only on Araya's "push it".
+- Telegram summary + a forwardable draft note for Pak Guntar sent to Araya's chat 26 Sep via mastercontrol `tg.sh`.
+
 ## Status — 24 Sep 2026
 - **Phase 1 done.** Source: https://workshop-ai-pamjaya.vercel.app (PAM Jaya × BusinessFirst, 2-day in-house).
   - Map & spec: `notes/PETA-SITUS-2026-09-24.md` (IA tree, flows A–E, API/data model, inventory, gated, source defects).
